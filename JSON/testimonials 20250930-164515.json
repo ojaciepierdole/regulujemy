@@ -1,0 +1,798 @@
+[
+	{
+		"author_location": "Warszawa",
+		"service_name": "Serwis okien hotelowych",
+		"subcategory": "Hotele i gastronomia",
+		"author_name": "Hotel \"Platinum Palace\"",
+		"content": "Serwis okien w 150 pokojach hotelowych. Prace wykonane podczas niskiej frekwencji, goście nie byli w żaden sposób niepokojeni.",
+		"content_en": "Window service in 150 hotel rooms. Work done during low occupancy, guests were not disturbed in any way.",
+		"service_duration": null,
+		"keywords": [
+			"150 pokoi",
+			"hotel",
+			"niska frekwencja",
+			"goście nie niepokojeni"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Kompleksowa regulacja z konserwacją",
+		"subcategory": "Konserwacja",
+		"author_name": "Katarzyna P.",
+		"content": "Kompleksowa regulacja 5 okien z czyszczeniem i smarowaniem. Obsługa na najwyższym poziomie, cena 375 zł całkowicie adekwatna.",
+		"content_en": "Comprehensive adjustment of 5 windows with cleaning and lubrication. Service at the highest level, price of 375 PLN completely adequate.",
+		"service_duration": null,
+		"keywords": [
+			"kompleksowa regulacja",
+			"Mokotów",
+			"czyszczenie",
+			"smarowanie",
+			"375 zł"
+		],
+		"service_cost": "375.00000"
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Modernizacja okien PCV",
+		"subcategory": "Modernizacja okien",
+		"author_name": "Dariusz M.",
+		"content": "Blok z lat 80-tych, stare okna PCV wymagały kompleksowej modernizacji. Firma załatwiła wszystko w jeden dzień.",
+		"content_en": "Block from the 80s, old PVC windows required comprehensive modernization. The company handled everything in one day.",
+		"service_duration": "1 dzień",
+		"keywords": [
+			"blok z lat 80",
+			"modernizacja",
+			"jeden dzień",
+			"kompleksowa"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bemowo",
+		"service_name": "Kompletna wymiana okien",
+		"subcategory": "Wymiana okien",
+		"author_name": "Justyna L.",
+		"content": "Dom jednorodzinny, kompletna wymiana okien. Od wyceny do montażu wszystko na najwyższym poziomie.",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"dom jednorodzinny",
+			"kompletna wymiana",
+			"najwyższy poziom",
+			"wycena"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Wymiana klamek",
+		"subcategory": "Okucia",
+		"author_name": "Robert P.",
+		"content": "Wymiana klamek w 6 oknach. Szybko, profesjonalnie, w bardzo dobrej cenie. Ekipa zostawiła po sobie porządek. Na pewno skorzystam ponownie.",
+		"content_en": "Replacement of handles in 6 windows. Fast, professional, at a very good price. The team left everything tidy. I will definitely use their services again.",
+		"service_duration": "1.5 godziny",
+		"keywords": [
+			"wymiana klamek",
+			"Wilanów",
+			"szybko",
+			"porządek",
+			"dobra cena"
+		],
+		"service_cost": "340.00000"
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Wymiana zawiasów na wzmocnione",
+		"subcategory": "Okucia",
+		"author_name": "Piotr D.",
+		"content": "Wymiana zawiasów na wzmocnione. Okna balkonowe teraz się nie opuszczają. Profesjonalna obsługa, uczciwa cena 280 zł.",
+		"content_en": "Replacement of hinges with reinforced ones. Balcony windows now don't sag. Professional service, fair price 280 PLN.",
+		"service_duration": null,
+		"keywords": [
+			"wymiana zawiasów",
+			"Ursynów",
+			"wzmocnione",
+			"okna balkonowe",
+			"280 zł"
+		],
+		"service_cost": "280.00000"
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Serwis okien",
+		"subcategory": "Mokotów",
+		"author_name": "Elżbieta P.",
+		"content": "Serwis wykonany w apartamentowcu przy Galerii Mokotów. Punktualność, profesjonalizm, uczciwa cena. Wszystko na 5!",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"Galerii Mokotów",
+			"apartamentowiec",
+			"punktualność",
+			"profesjonalizm"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Regulacja okien",
+		"subcategory": "Wilanów",
+		"author_name": "Marek S.",
+		"content": "Villa w Wilanowie, 24 okna do regulacji. Zespół pracował sprawnie przez 2 dni. Każde okno teraz działa perfekcyjnie.",
+		"content_en": "Villa in Wilanow, 24 windows for adjustment. The team worked efficiently for 2 days. Every window now works perfectly.",
+		"service_duration": "2 dni",
+		"keywords": [
+			"villa",
+			"Wilanów",
+			"24 okna",
+			"sprawnie",
+			"perfekcyjnie"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Regulacja okien zabytkowych",
+		"subcategory": "Okna",
+		"author_name": "Jan K.",
+		"content": "Mieszkam w kamienicy sprzed wojny, okna wymagały specjalistycznego podejścia. Firma poradziła sobie idealnie z regulacją starych ram.",
+		"content_en": "I live in a pre-war tenement, windows required a specialist approach. The company handled the adjustment of old frames perfectly.",
+		"service_duration": null,
+		"keywords": [
+			"kamienica",
+			"okna zabytkowe",
+			"Mokotów",
+			"specjalistyczne podejście"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Montaż okien REHAU",
+		"subcategory": "Montaż okien",
+		"author_name": "Iwona R.",
+		"content": "Montaż okien w nowym domu. Jakość REHAU, montaż profesjonalny. Dom gotowy do zamieszkania dzięki Waszej pracy.",
+		"content_en": "Window installation in a new house. REHAU quality, professional installation. House ready to move in thanks to your work.",
+		"service_duration": null,
+		"keywords": [
+			"montaż okien",
+			"REHAU",
+			"nowy dom",
+			"profesjonalny"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bielany",
+		"service_name": "Regulacja okien PCV",
+		"subcategory": "Okna",
+		"author_name": "Maria W.",
+		"content": "Okna PCV po 15 latach wymagały regulacji. Pan technik przyjechał tego samego dnia, problem rozwiązany w 40 minut za 105 zł.",
+		"content_en": "PVC windows after 15 years required adjustment. The technician came the same day, problem solved in 40 minutes for 105 PLN.",
+		"service_duration": "40 minut",
+		"keywords": [
+			"okna PCV",
+			"Bielany",
+			"tego samego dnia",
+			"40 minut",
+			"105 zł"
+		],
+		"service_cost": "105.00000"
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Montaż okien PCV",
+		"subcategory": "Okna PCV",
+		"author_name": "Marek Nowak",
+		"content": "Montaż profesjonalny, wszystko zrobione w jeden dzień. Polecam każdemu!",
+		"content_en": "Professional installation, everything done in one day. I recommend to everyone!",
+		"service_duration": null,
+		"keywords": [
+			"montaż",
+			"jeden dzień",
+			"Ursynów",
+			"profesjonalny",
+			"polecam"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Praga",
+		"service_name": "Konsultacja techniczna",
+		"subcategory": "Doradztwo techniczne",
+		"author_name": "Andrzej S.",
+		"content": "Otrzymałem szczegółowe doradztwo przy wyborze okuć. Pani konsultant wyjaśniła wszystkie różnice i pomogła wybrać optymalne rozwiązanie.",
+		"content_en": "I received detailed advice when choosing fittings. The consultant explained all the differences and helped choose the optimal solution.",
+		"service_duration": null,
+		"keywords": [
+			"doradztwo",
+			"wybór okuć",
+			"konsultant",
+			"optymalne rozwiązanie"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Konstancin",
+		"service_name": "Montaż okien",
+		"subcategory": "Zespół montażowy",
+		"author_name": "Robert P.",
+		"content": "Montaż 14 okien w domu. Zespół pod kierownictwem pana Łukasza pracował sprawnie i pozostał po sobie idealny porządek.",
+		"content_en": "Installation of 14 windows in the house. The team led by Mr. Lukasz worked efficiently and left everything perfectly tidy.",
+		"service_duration": null,
+		"keywords": [
+			"montaż",
+			"Łukasz",
+			"sprawnie",
+			"idealny porządek"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Montaż 12 okien PCV",
+		"subcategory": "Okna",
+		"author_name": "Tomasz L.",
+		"content": "Montaż nowych okien PCV w całym domu. Zespół pracował 2 dni, wszystko wykonane idealnie. Gwarancja 10 lat daje spokój.",
+		"content_en": "Installation of new PVC windows throughout the house. The team worked for 2 days, everything was done perfectly. The 10-year warranty gives peace of mind.",
+		"service_duration": "2 dni",
+		"keywords": [
+			"montaż okien",
+			"Ursynów",
+			"zespół",
+			"gwarancja 10 lat",
+			"idealnie"
+		],
+		"service_cost": "8500.00000"
+	},
+	{
+		"author_location": "Warszawa",
+		"service_name": "Regulacja przeszkleń wielkogabarytowych",
+		"subcategory": "Handel i usługi",
+		"author_name": "Salon BMW Warszawa",
+		"content": "Regulacja przeszkleń wielkogabarytowych w salonie. Skomplikowane mechanizmy, ale załatwione perfekcyjnie. Polecamy!",
+		"content_en": "Adjustment of large-format glazing in the showroom. Complicated mechanisms, but handled perfectly. We recommend!",
+		"service_duration": null,
+		"keywords": [
+			"BMW",
+			"salon",
+			"przeszkla wielkogabarytowe",
+			"skomplikowane mechanizmy"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Serwis grupowy",
+		"subcategory": "Usługi specjalne",
+		"author_name": "SM \"Mokotów Park\"",
+		"content": "Kompleksowy serwis okien w całym budynku. Zorganizowanie prac w 120 mieszkaniach wymagało logistyki, ale wszystko przebiegło sprawnie.",
+		"content_en": "Comprehensive window service throughout the building. Organizing work in 120 apartments required logistics, but everything went smoothly.",
+		"service_duration": null,
+		"keywords": [
+			"wspólnota",
+			"120 mieszkań",
+			"logistyka",
+			"sprawnie",
+			"kompleksowo"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Targówek",
+		"service_name": "Regulacja zaawansowana okien drewnianych",
+		"subcategory": "Okna",
+		"author_name": "Jacek N.",
+		"content": "Regulacja zaawansowana okien drewnianych. Skomplikowany przypadek, ale załatwiony profesjonalnie. Warto było zapłacić 55 zł/okno.",
+		"content_en": "Advanced adjustment of wooden windows. Complicated case, but handled professionally. It was worth paying 55 PLN per window.",
+		"service_duration": null,
+		"keywords": [
+			"okna drewniane",
+			"Targówek",
+			"skomplikowany",
+			"zaawansowana",
+			"55 zł"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Montaż okien REHAU",
+		"subcategory": "Montaż okien",
+		"author_name": "Iwona R.",
+		"content": "Montaż okien w nowym domu. Jakość REHAU, montaż profesjonalny. Dom gotowy do zamieszkania dzięki Waszej pracy.",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"montaż okien",
+			"REHAU",
+			"nowy dom",
+			"profesjonalny"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Wymiana klamek z kluczem",
+		"subcategory": "Okucia",
+		"author_name": "Andrzej K.",
+		"content": "Wymiana wszystkich klamek na nowe z kluczem. Teraz mam spokój o bezpieczeństwo dzieci. Cena 420 zł za 6 okien OK.",
+		"content_en": "Replacement of all handles with new ones with key. Now I have peace of mind about children's safety. Price 420 PLN for 6 windows OK.",
+		"service_duration": null,
+		"keywords": [
+			"wymiana klamek",
+			"Mokotów",
+			"z kluczem",
+			"bezpieczeństwo dzieci",
+			"420 zł"
+		],
+		"service_cost": "420.00000"
+	},
+	{
+		"author_location": "Konstancin",
+		"service_name": "Montaż okien w domu",
+		"subcategory": "Okna",
+		"author_name": "Krzysztof W.",
+		"content": "Montaż 18 okien PCV w domu jednorodzinnym. Zespół pracował 3 dni, wszystko perfekcyjnie. Gwarancja 10 lat to dodatkowy atut.",
+		"content_en": "Installation of 18 PVC windows in a single-family house. The team worked for 3 days, everything perfectly. 10-year warranty is an additional advantage.",
+		"service_duration": null,
+		"keywords": [
+			"montaż 18 okien",
+			"Konstancin",
+			"3 dni",
+			"perfekcyjnie",
+			"gwarancja 10 lat"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Regulacja okien",
+		"subcategory": "Ursynów",
+		"author_name": "Anna Z.",
+		"content": "Regulacja w wieżowcu na Ursynówie. Dostęp trudny, ale ekipa poradziła sobie bez problemu. Bardzo polecam!",
+		"content_en": "Adjustment in a skyscraper in Ursynow. Difficult access, but the team handled it without any problems. I highly recommend!",
+		"service_duration": null,
+		"keywords": [
+			"wieżowiec",
+			"Ursynów",
+			"trudny dostęp",
+			"bardzo polecam"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Piaseczno",
+		"service_name": "Wymiana na okna energooszczędne",
+		"subcategory": "Okna",
+		"author_name": "Małgorzata N.",
+		"content": "Wymiana okien w mieszkaniu na energooszczędne. Różnica w rachunkach widoczna od pierwszego miesiąca. Polecam!",
+		"content_en": "Replacement of windows in apartment with energy-efficient ones. Difference in bills visible from the first month. I recommend!",
+		"service_duration": null,
+		"keywords": [
+			"energooszczędne",
+			"Piaseczno",
+			"rachunki",
+			"pierwszy miesiąc",
+			"polecam"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Regulacja okien",
+		"subcategory": "Ursynów",
+		"author_name": "Anna Z.",
+		"content": "Regulacja w wieżowcu na Ursynówie. Dostęp trudny, ale ekipa poradziła sobie bez problemu. Bardzo polecam!",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"wieżowiec",
+			"Ursynów",
+			"trudny dostęp",
+			"bardzo polecam"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Regulacja okien PCV",
+		"subcategory": "Okna",
+		"author_name": "Anna K.",
+		"content": "Regulacja 4 okien PCV za 120 zł. Pan Marek przyjechał punktualnie, profesjonalnie wszystko wyregulował. Okna działają jak nowe! Polecam!",
+		"content_en": "PVC window regulation for 4 windows at 120 PLN. Mr. Marek arrived on time, professionally adjusted everything. Windows work like new! I recommend!",
+		"service_duration": "45 minut",
+		"keywords": [
+			"regulacja",
+			"okna PCV",
+			"Mokotów",
+			"szybko",
+			"profesjonalnie"
+		],
+		"service_cost": "120.00000"
+	},
+	{
+		"author_location": "Żoliborz",
+		"service_name": "Serwis okien drewnianych zabytkowych",
+		"subcategory": "Diagnostyka i doradztwo",
+		"author_name": "Maria T.",
+		"content": "Serwis okien drewnianych w zabytkowej kamienicy. Pan Piotr podszedł do sprawy z najwyższą starannością. Okna wyglądają jak nowe.",
+		"content_en": "Wooden window service in historic tenement. Mr. Piotr approached the matter with utmost care. Windows look like new.",
+		"service_duration": null,
+		"keywords": [
+			"okna drewniane",
+			"Żoliborz",
+			"zabytkowa kamienica",
+			"Piotr",
+			"staranność"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wola",
+		"service_name": null,
+		"subcategory": "Diagnostyka i doradztwo",
+		"author_name": "Jerzy K.",
+		"content": "Pan Marek to prawdziwy profesjonalista. Rozwiązał problem, który inni uznali za niemożliwy do naprawy. Ogromna wiedza i doświadczenie.",
+		"content_en": "Mr. Marek is a true professional. He solved a problem that others considered impossible to repair. Enormous knowledge and experience.",
+		"service_duration": null,
+		"keywords": [
+			"Marek",
+			"profesjonalista",
+			"Wola",
+			"trudny problem",
+			"wiedza"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Warszawa",
+		"service_name": "Naprawa okien panoramicznych",
+		"subcategory": "Hotele i gastronomia",
+		"author_name": "Restauracja \"Panorama 40\"",
+		"content": "Naprawa systemu uchylania okien panoramicznych. Widok na Warszawę znowu dostępny dla gości bez problemów z wentylacją.",
+		"content_en": "Repair of panoramic window opening system. The view of Warsaw is again available to guests without ventilation problems.",
+		"service_duration": null,
+		"keywords": [
+			"okna panoramiczne",
+			"widok na Warszawę",
+			"wentylacja",
+			"restauracja"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bemowo",
+		"service_name": "Naprawa zawiasów",
+		"subcategory": "Okucia",
+		"author_name": "Magdalena S.",
+		"content": "Naprawa zawiasów w oknie balkonowym. Myślałam że będę musiała wymieniać całe okno, a wystarczyła jedna usługa za 85 zł. Dziękuję!",
+		"content_en": "Repair of hinges in a balcony window. I thought I would have to replace the entire window, but one service for 85 PLN was enough. Thank you!",
+		"service_duration": "30 minut",
+		"keywords": [
+			"naprawa zawiasów",
+			"Bemowo",
+			"okno balkonowe",
+			"oszczędność"
+		],
+		"service_cost": "85.00000"
+	},
+	{
+		"author_location": "Warszawa",
+		"service_name": "Serwis okien w biurowcu",
+		"subcategory": "Usługi specjalne",
+		"author_name": "Biurowiec \"Warsaw Trade Center\"",
+		"content": "Serwis 200+ okien w biurowcu. Prace wykonane w weekendy, bez zakłócania działalności firm. Profesjonalizm i elastyczność.",
+		"content_en": "Service of 200+ windows in office building. Work done on weekends, without disrupting business operations. Professionalism and flexibility.",
+		"service_duration": null,
+		"keywords": [
+			"200+ okien",
+			"biurowiec",
+			"weekendy",
+			"bez zakłóceń",
+			"elastyczność"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bemowo",
+		"service_name": "Regulacja okien deweloperskich",
+		"subcategory": "Regulacja okien deweloperskich",
+		"author_name": "Tomasz K.",
+		"content": "Nowe osiedle, nowe okna ale źle wyregulowane przez dewelopera. Regulujemy.pl naprawili wszystko w 2 godziny.",
+		"content_en": "New housing estate, new windows but poorly adjusted by the developer. Regulujemy.pl fixed everything in 2 hours.",
+		"service_duration": "2 godziny",
+		"keywords": [
+			"nowe osiedle",
+			"deweloper",
+			"źle wyregulowane",
+			"2 godziny"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Śródmieście",
+		"service_name": "Naprawa okuć wielopunktowych",
+		"subcategory": "Okucia",
+		"author_name": "Agnieszka T.",
+		"content": "Naprawa okuć w oknie biurowym. Problem z wielopunktowym mechanizmem rozwiązany sprawnie. Polecam firmę w 100%.",
+		"content_en": "Repair of fittings in office window. Problem with multi-point mechanism solved efficiently. I recommend the company 100%.",
+		"service_duration": null,
+		"keywords": [
+			"naprawa okuć",
+			"Śródmieście",
+			"wielopunktowy mechanizm",
+			"biuro",
+			"100%"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bielany",
+		"service_name": "Modernizacja okuć ROTO NX",
+		"subcategory": "Okucia",
+		"author_name": "Joanna M.",
+		"content": "Modernizacja okuć na ROTO NX. Okna działają jak w drogim hotelu - cicho i płynnie. Warto było zainwestować 850 zł.",
+		"content_en": "Modernization of fittings to ROTO NX. Windows work like in an expensive hotel - quiet and smooth. It was worth investing 850 PLN.",
+		"service_duration": null,
+		"keywords": [
+			"modernizacja okuć",
+			"Bielany",
+			"ROTO NX",
+			"cicho",
+			"850 zł"
+		],
+		"service_cost": "850.00000"
+	},
+	{
+		"author_location": "Ursynów",
+		"service_name": "Modernizacja okien PCV",
+		"subcategory": "Modernizacja okien",
+		"author_name": "Dariusz M.",
+		"content": "Blok z lat 80-tych, stare okna PCV wymagały kompleksowej modernizacji. Firma załatwiła wszystko w jeden dzień.",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"blok",
+			"lata 80",
+			"modernizacja",
+			"jeden dzień"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bemowo",
+		"service_name": "Regulacja okien deweloperskich",
+		"subcategory": "Regulacja okien deweloperskich",
+		"author_name": "Tomasz K.",
+		"content": "Nowe osiedle, nowe okna ale źle wyregulowane przez dewelopera. Regulujemy.pl naprawili wszystko w 2 godziny.",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"nowe osiedle",
+			"deweloper",
+			"źle wyregulowane",
+			"2 godziny"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Modernizacja okuć - termomodernizacja",
+		"subcategory": "Usługi specjalne",
+		"author_name": "SM \"Wilanów Gardens\"",
+		"content": "Modernizacja okuć w ramach termomodernizacji. Każdy mieszkaniec otrzymał indywidualną wycenę. Jakość usług na najwyższym poziomie.",
+		"content_en": "Modernization of fittings as part of thermal modernization. Each resident received an individual quote. Service quality at the highest level.",
+		"service_duration": null,
+		"keywords": [
+			"termomodernizacja",
+			"Wilanów",
+			"indywidualna wycena",
+			"80 mieszkań",
+			"najwyższy poziom"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Praga-Południe",
+		"service_name": "Naprawa klamki z kluczem",
+		"subcategory": "Okucia",
+		"author_name": "Michał R.",
+		"content": "Naprawa klamki z kluczem. Szybka diagnoza, wymiana w 20 minut. Cena 65 zł uczciwa, jakość obsługi wzorowa.",
+		"content_en": "Repair of handle with key. Quick diagnosis, replacement in 20 minutes. Price of 65 PLN fair, service quality exemplary.",
+		"service_duration": "20 minut",
+		"keywords": [
+			"naprawa klamki",
+			"Praga-Południe",
+			"z kluczem",
+			"20 minut",
+			"65 zł"
+		],
+		"service_cost": "65.00000"
+	},
+	{
+		"author_location": "Ursus",
+		"service_name": "Wymiana uszczelek",
+		"subcategory": "Uszczelki",
+		"author_name": "Barbara L.",
+		"content": "Wymiana uszczelek w 6 oknach. Nie ma już przeciągów, mieszkanie jest cieplejsze. Za 180 zł doskonały rezultat.",
+		"content_en": "Replacement of seals in 6 windows. No more drafts, apartment is warmer. For 180 PLN excellent result.",
+		"service_duration": null,
+		"keywords": [
+			"wymiana uszczelek",
+			"Ursus",
+			"6 okien",
+			"cieplejsze",
+			"180 zł"
+		],
+		"service_cost": "180.00000"
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Serwis okien panoramicznych",
+		"subcategory": "Okna",
+		"author_name": "Władysław K.",
+		"content": "Villa przy Pałacu, okna panoramiczne z widokiem na park. Serwis na poziomie królewskim - polecamy!",
+		"content_en": "Villa near the Palace, panoramic windows with a view of the park. Royal-level service - we recommend!",
+		"service_duration": null,
+		"keywords": [
+			"villa",
+			"Pałac",
+			"Wilanów",
+			"panoramiczne",
+			"królewski poziom"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Ochota",
+		"service_name": "Konsultacja telefoniczna",
+		"subcategory": "Obsługa klienta",
+		"author_name": "Katarzyna M.",
+		"content": "Już pierwsza rozmowa telefoniczna pokazała poziom profesjonalizmu. Jasne informacje, konkretne terminy, brak ukrytych kosztów.",
+		"content_en": "Even the first phone call showed the level of professionalism. Clear information, specific deadlines, no hidden costs.",
+		"service_duration": null,
+		"keywords": [
+			"pierwsza rozmowa",
+			"profesjonalizm",
+			"jasne informacje",
+			"brak ukrytych kosztów"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Mokotów",
+		"service_name": "Serwis okien",
+		"subcategory": "Mokotów",
+		"author_name": "Elżbieta P.",
+		"content": "Serwis wykonany w apartamentowcu przy Galerii Mokotów. Punktualność, profesjonalizm, uczciwa cena. Wszystko na 5!",
+		"content_en": "Service performed in an apartment building near Galeria Mokotów. Punctuality, professionalism, fair price. Everything gets a 5!",
+		"service_duration": null,
+		"keywords": [
+			"Galerii Mokotów",
+			"apartamentowiec",
+			"punktualność",
+			"profesjonalizm"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Bemowo",
+		"service_name": "Kompletna wymiana okien",
+		"subcategory": "Wymiana okien",
+		"author_name": "Justyna L.",
+		"content": "Dom jednorodzinny, kompletna wymiana okien. Od wyceny do montażu wszystko na najwyższym poziomie.",
+		"content_en": "Single-family house, complete window replacement. From quote to installation, everything at the highest level.",
+		"service_duration": null,
+		"keywords": [
+			"dom jednorodzinny",
+			"kompletna wymiana",
+			"najwyższy poziom",
+			"wycena"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wola",
+		"service_name": "Regulacja okien biurowych",
+		"subcategory": "Okna",
+		"author_name": "Paweł K.",
+		"content": "Regulacja 8 okien w biurze. Szybko, sprawnie, bez zakłócania pracy. Cena 280 zł bardzo uczciwa. Firma godna polecenia.",
+		"content_en": "Regulation of 8 windows in the office. Fast, efficient, without disrupting work. Price of 280 PLN very fair. Company worth recommending.",
+		"service_duration": null,
+		"keywords": [
+			"regulacja okien",
+			"Wola",
+			"biuro",
+			"szybko",
+			"uczciwa cena"
+		],
+		"service_cost": "280.00000"
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Naprawa zawiasów okna tarasowego",
+		"subcategory": "Okucia",
+		"author_name": "Grzegorz S.",
+		"content": "Naprawa zawiasów w oknie tarasowym. Myślałem że trzeba będzie wymieniać całe okno, a wystarczyła regulacja za 95 zł.",
+		"content_en": "Repair of hinges in terrace window. I thought I would have to replace the entire window, but adjustment for 95 PLN was enough.",
+		"service_duration": null,
+		"keywords": [
+			"naprawa zawiasów",
+			"Wilanów",
+			"okno tarasowe",
+			"95 zł",
+			"oszczędność"
+		],
+		"service_cost": "95.00000"
+	},
+	{
+		"author_location": "Białołęka",
+		"service_name": "Regulacja okien deweloperskich",
+		"subcategory": "Okna",
+		"author_name": "Michał K.",
+		"content": "Mieszkamy w Tarchomin Park, okna od dewelopera źle wyregulowane. Jeden telefon i problem rozwiązany. Polecamy!",
+		"content_en": "We live in Tarchomin Park, windows from the developer were poorly adjusted. One phone call and problem solved. We recommend!",
+		"service_duration": null,
+		"keywords": [
+			"Tarchomin Park",
+			"Białołęka",
+			"deweloper",
+			"szybko",
+			"jeden telefon"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Warszawa",
+		"service_name": "Montaż okien aluminiowych",
+		"subcategory": "Okna",
+		"author_name": "Sebastian L.",
+		"content": "Montaż okien aluminiowych w biurowcu. Projekt skomplikowany, ale zrealizowany idealnie. Profesjonalizm na najwyższym poziomie.",
+		"content_en": "Installation of aluminum windows in office building. Complicated project, but executed perfectly. Professionalism at the highest level.",
+		"service_duration": null,
+		"keywords": [
+			"okna aluminiowe",
+			"Warszawa",
+			"biurowiec",
+			"skomplikowany projekt",
+			"profesjonalizm"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Wilanów",
+		"service_name": "Regulacja okien",
+		"subcategory": "Wilanów",
+		"author_name": "Marek S.",
+		"content": "Villa w Wilanowie, 24 okna do regulacji. Zespół pracował sprawnie przez 2 dni. Każde okno teraz działa perfekcyjnie.",
+		"content_en": null,
+		"service_duration": null,
+		"keywords": [
+			"villa",
+			"Wilanów",
+			"24 okna",
+			"sprawnie",
+			"perfekcyjnie"
+		],
+		"service_cost": null
+	},
+	{
+		"author_location": "Ochota",
+		"service_name": "Wymiana uszczelek",
+		"subcategory": "Uszczelki",
+		"author_name": "Ewa M.",
+		"content": "Wymiana uszczelek w starych oknach drewnianych. Teraz nie ma przeciągów, a rachunki za ogrzewanie spadły o 20%. Bardzo polecam!",
+		"content_en": "Replacement of seals in old wooden windows. Now there are no drafts, and heating bills have dropped by 20%. I highly recommend!",
+		"service_duration": "2 godziny",
+		"keywords": [
+			"wymiana uszczelek",
+			"Ochota",
+			"okna drewniane",
+			"oszczędność",
+			"20%"
+		],
+		"service_cost": "240.00000"
+	}
+]

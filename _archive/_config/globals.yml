@@ -1,0 +1,332 @@
+# GLOBAL SETTINGS CONFIGURATION
+# Site-wide settings and configuration for Payload CMS
+
+globals:
+  site_settings:
+    name: "Site Settings"
+    slug: "site-settings"
+    fields:
+      - name: siteName
+        type: text
+        required: true
+        defaultValue: "Regulujemy.pl"
+        
+      - name: tagline
+        type: text
+        defaultValue: "Profesjonalna regulacja i naprawa okien"
+        
+      - name: logo
+        type: upload
+        relationTo: media
+        
+      - name: favicon
+        type: upload
+        relationTo: media
+        
+      - name: defaultSEO
+        type: group
+        fields:
+          - name: title
+            type: text
+            defaultValue: "Regulujemy.pl - Serwis Okien i Drzwi Warszawa"
+            
+          - name: description
+            type: textarea
+            defaultValue: "Profesjonalna regulacja, naprawa i montaż okien oraz drzwi w Warszawie. Serwis 24/7, dojazd gratis, gwarancja do 5 lat."
+            
+          - name: keywords
+            type: text
+            defaultValue: "regulacja okien, naprawa okien, serwis okien Warszawa"
+            
+          - name: ogImage
+            type: upload
+            relationTo: media
+            
+      - name: analytics
+        type: group
+        fields:
+          - name: googleAnalyticsID
+            type: text
+            
+          - name: googleTagManagerID
+            type: text
+            
+          - name: facebookPixelID
+            type: text
+            
+      - name: scripts
+        type: group
+        fields:
+          - name: headerScripts
+            type: code
+            language: html
+            
+          - name: footerScripts
+            type: code
+            language: html
+
+  company_info:
+    name: "Company Information"
+    slug: "company-info"
+    fields:
+      - name: companyName
+        type: text
+        required: true
+        defaultValue: "Regulujemy.pl Sp. z o.o."
+        
+      - name: nip
+        type: text
+        required: true
+        
+      - name: regon
+        type: text
+        
+      - name: krs
+        type: text
+        
+      - name: address
+        type: group
+        fields:
+          - name: street
+            type: text
+            
+          - name: city
+            type: text
+            defaultValue: "Warszawa"
+            
+          - name: postalCode
+            type: text
+            
+          - name: country
+            type: text
+            defaultValue: "Polska"
+            
+      - name: contact
+        type: group
+        fields:
+          - name: primaryPhone
+            type: text
+            required: true
+            
+          - name: emergencyPhone
+            type: text
+            
+          - name: email
+            type: email
+            required: true
+            
+          - name: supportEmail
+            type: email
+            
+      - name: businessHours
+        type: group
+        fields:
+          - name: weekdays
+            type: text
+            defaultValue: "7:00 - 20:00"
+            
+          - name: saturday
+            type: text
+            defaultValue: "8:00 - 16:00"
+            
+          - name: sunday
+            type: text
+            defaultValue: "Nieczynne"
+            
+          - name: emergency247
+            type: checkbox
+            defaultValue: true
+            
+      - name: socialMedia
+        type: array
+        fields:
+          - name: platform
+            type: select
+            options:
+              - label: Facebook
+                value: facebook
+              - label: Instagram
+                value: instagram
+              - label: YouTube
+                value: youtube
+              - label: LinkedIn
+                value: linkedin
+              - label: Twitter
+                value: twitter
+              
+          - name: url
+            type: text
+            required: true
+            
+          - name: username
+            type: text
+
+  navigation:
+    name: "Navigation Settings"
+    slug: "navigation"
+    fields:
+      - name: mainMenu
+        type: array
+        fields:
+          - name: label
+            type: text
+            required: true
+            
+          - name: type
+            type: select
+            options:
+              - label: Internal Link
+                value: internal
+              - label: External Link
+                value: external
+              - label: Dropdown
+                value: dropdown
+                
+          - name: url
+            type: text
+            condition:
+              type:
+                not_equals: dropdown
+                
+          - name: page
+            type: relationship
+            relationTo: pages
+            condition:
+              type:
+                equals: internal
+                
+          - name: openInNewTab
+            type: checkbox
+            defaultValue: false
+            
+          - name: children
+            type: array
+            condition:
+              type:
+                equals: dropdown
+            fields:
+              - name: label
+                type: text
+                required: true
+                
+              - name: url
+                type: text
+                
+              - name: page
+                type: relationship
+                relationTo: pages
+                
+      - name: footerMenu
+        type: array
+        fields:
+          - name: columnTitle
+            type: text
+            required: true
+            
+          - name: links
+            type: array
+            fields:
+              - name: label
+                type: text
+                required: true
+                
+              - name: url
+                type: text
+                
+              - name: page
+                type: relationship
+                relationTo: pages
+                
+      - name: mobileMenu
+        type: group
+        fields:
+          - name: showSearch
+            type: checkbox
+            defaultValue: true
+            
+          - name: showPhone
+            type: checkbox
+            defaultValue: true
+            
+          - name: ctaButton
+            type: group
+            fields:
+              - name: text
+                type: text
+                defaultValue: "Umów wizytę"
+                
+              - name: url
+                type: text
+                
+              - name: style
+                type: select
+                options:
+                  - label: Primary
+                    value: primary
+                  - label: Secondary
+                    value: secondary
+
+  email_settings:
+    name: "Email Settings"
+    slug: "email-settings"
+    fields:
+      - name: smtp
+        type: group
+        fields:
+          - name: host
+            type: text
+            required: true
+            
+          - name: port
+            type: number
+            defaultValue: 587
+            
+          - name: secure
+            type: checkbox
+            
+          - name: user
+            type: text
+            required: true
+            
+          - name: password
+            type: text
+            required: true
+            admin:
+              condition:
+                type: password
+                
+      - name: defaultFrom
+        type: group
+        fields:
+          - name: name
+            type: text
+            defaultValue: "Regulujemy.pl"
+            
+          - name: email
+            type: email
+            required: true
+            
+      - name: notificationEmails
+        type: array
+        fields:
+          - name: type
+            type: select
+            options:
+              - label: Nowe zamówienie
+                value: new_order
+              - label: Kontakt
+                value: contact
+              - label: Awaria
+                value: emergency
+              - label: Newsletter
+                value: newsletter
+                
+          - name: recipients
+            type: array
+            fields:
+              - name: email
+                type: email
+                required: true
+                
+              - name: name
+                type: text

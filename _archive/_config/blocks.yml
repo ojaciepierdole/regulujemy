@@ -1,0 +1,414 @@
+# BLOCKS CONFIGURATION FOR PAYLOAD CMS
+# Reusable content blocks for flexible page building
+
+blocks:
+  # Hero/Banner Blocks
+  hero_block:
+    name: "Hero Block"
+    slug: "hero-block"
+    fields:
+      - name: heading
+        type: text
+        required: true
+        
+      - name: subheading
+        type: text
+        
+      - name: backgroundImage
+        type: upload
+        relationTo: media
+        
+      - name: backgroundType
+        type: select
+        options:
+          - label: Image
+            value: image
+          - label: Video
+            value: video
+          - label: Gradient
+            value: gradient
+          - label: Solid Color
+            value: solid
+            
+      - name: overlay
+        type: group
+        fields:
+          - name: enabled
+            type: checkbox
+            defaultValue: true
+            
+          - name: opacity
+            type: number
+            min: 0
+            max: 100
+            defaultValue: 50
+            
+      - name: cta
+        type: array
+        maxRows: 2
+        fields:
+          - name: text
+            type: text
+            required: true
+            
+          - name: link
+            type: text
+            required: true
+            
+          - name: style
+            type: select
+            options:
+              - label: Primary
+                value: primary
+              - label: Secondary
+                value: secondary
+              - label: Outline
+                value: outline
+                
+      - name: height
+        type: select
+        defaultValue: large
+        options:
+          - label: Small (40vh)
+            value: small
+          - label: Medium (60vh)
+            value: medium
+          - label: Large (80vh)
+            value: large
+          - label: Full Screen (100vh)
+            value: full
+
+  # Content Blocks
+  content_block:
+    name: "Content Block"
+    slug: "content-block"
+    fields:
+      - name: content
+        type: richText
+        required: true
+        
+      - name: layout
+        type: select
+        defaultValue: full
+        options:
+          - label: Full Width
+            value: full
+          - label: Two Columns
+            value: two-col
+          - label: Three Columns
+            value: three-col
+          - label: Sidebar Left
+            value: sidebar-left
+          - label: Sidebar Right
+            value: sidebar-right
+            
+      - name: containerWidth
+        type: select
+        defaultValue: container
+        options:
+          - label: Container (1200px)
+            value: container
+          - label: Wide (1400px)
+            value: wide
+          - label: Full Width
+            value: full
+
+  # Service Blocks
+  service_card_block:
+    name: "Service Card Block"
+    slug: "service-card-block"
+    fields:
+      - name: title
+        type: text
+        
+      - name: services
+        type: relationship
+        relationTo: services
+        hasMany: true
+        
+      - name: displayType
+        type: select
+        defaultValue: grid
+        options:
+          - label: Grid
+            value: grid
+          - label: List
+            value: list
+          - label: Carousel
+            value: carousel
+          
+      - name: columns
+        type: number
+        min: 2
+        max: 4
+        defaultValue: 3
+        
+      - name: showPrice
+        type: checkbox
+        defaultValue: true
+        
+      - name: showDuration
+        type: checkbox
+        defaultValue: true
+        
+      - name: showCTA
+        type: checkbox
+        defaultValue: true
+
+  # Pricing Blocks
+  pricing_table_block:
+    name: "Pricing Table Block"
+    slug: "pricing-table-block"
+    fields:
+      - name: title
+        type: text
+        defaultValue: "Cennik"
+        
+      - name: description
+        type: textarea
+        
+      - name: pricingItems
+        type: array
+        fields:
+          - name: service
+            type: text
+            required: true
+            
+          - name: price
+            type: text
+            required: true
+            
+          - name: unit
+            type: text
+            defaultValue: "usługa"
+            
+          - name: duration
+            type: text
+            
+          - name: features
+            type: array
+            fields:
+              - name: feature
+                type: text
+                
+          - name: highlighted
+            type: checkbox
+            defaultValue: false
+            
+      - name: displayType
+        type: select
+        defaultValue: table
+        options:
+          - label: Table
+            value: table
+          - label: Cards
+            value: cards
+          - label: List
+            value: list
+
+  # CTA Blocks
+  cta_block:
+    name: "CTA Block"
+    slug: "cta-block"
+    fields:
+      - name: heading
+        type: text
+        required: true
+        
+      - name: description
+        type: textarea
+        
+      - name: style
+        type: select
+        defaultValue: standard
+        options:
+          - label: Standard
+            value: standard
+          - label: Emergency
+            value: emergency
+          - label: Promotion
+            value: promotion
+          - label: Newsletter
+            value: newsletter
+            
+      - name: buttons
+        type: array
+        maxRows: 3
+        fields:
+          - name: text
+            type: text
+            required: true
+            
+          - name: link
+            type: text
+            
+          - name: style
+            type: select
+            options:
+              - label: Primary
+                value: primary
+              - label: Secondary
+                value: secondary
+              - label: Phone
+                value: phone
+              - label: WhatsApp
+                value: whatsapp
+                
+      - name: backgroundImage
+        type: upload
+        relationTo: media
+        
+      - name: backgroundColor
+        type: text
+
+  # Testimonial Blocks
+  testimonial_block:
+    name: "Testimonial Block"
+    slug: "testimonial-block"
+    fields:
+      - name: title
+        type: text
+        defaultValue: "Opinie Klientów"
+        
+      - name: testimonials
+        type: array
+        fields:
+          - name: content
+            type: textarea
+            required: true
+            
+          - name: author
+            type: text
+            required: true
+            
+          - name: location
+            type: text
+            
+          - name: rating
+            type: number
+            min: 1
+            max: 5
+            defaultValue: 5
+            
+          - name: service
+            type: relationship
+            relationTo: services
+            
+          - name: date
+            type: date
+            
+      - name: displayType
+        type: select
+        defaultValue: carousel
+        options:
+          - label: Carousel
+            value: carousel
+          - label: Grid
+            value: grid
+          - label: List
+            value: list
+
+  # FAQ Block
+  faq_block:
+    name: "FAQ Block"
+    slug: "faq-block"
+    fields:
+      - name: title
+        type: text
+        defaultValue: "Najczęściej Zadawane Pytania"
+        
+      - name: faqs
+        type: relationship
+        relationTo: faq
+        hasMany: true
+        
+      - name: category
+        type: select
+        options:
+          - label: Usługi
+            value: service
+          - label: Produkty
+            value: product
+          - label: Ogólne
+            value: general
+            
+      - name: displayType
+        type: select
+        defaultValue: accordion
+        options:
+          - label: Accordion
+            value: accordion
+          - label: List
+            value: list
+          - label: Tabs
+            value: tabs
+
+  # Gallery Block
+  gallery_block:
+    name: "Gallery Block"
+    slug: "gallery-block"
+    fields:
+      - name: title
+        type: text
+        
+      - name: images
+        type: array
+        fields:
+          - name: image
+            type: upload
+            relationTo: media
+            required: true
+            
+          - name: caption
+            type: text
+            
+          - name: link
+            type: text
+            
+      - name: displayType
+        type: select
+        defaultValue: grid
+        options:
+          - label: Grid
+            value: grid
+          - label: Masonry
+            value: masonry
+          - label: Carousel
+            value: carousel
+          - label: Lightbox Grid
+            value: lightbox
+            
+      - name: columns
+        type: number
+        min: 2
+        max: 6
+        defaultValue: 4
+
+  # Location Block
+  location_block:
+    name: "Location Block"
+    slug: "location-block"
+    fields:
+      - name: title
+        type: text
+        defaultValue: "Nasze Lokalizacje"
+        
+      - name: locations
+        type: relationship
+        relationTo: locations
+        hasMany: true
+        
+      - name: showMap
+        type: checkbox
+        defaultValue: true
+        
+      - name: mapType
+        type: select
+        defaultValue: interactive
+        options:
+          - label: Interactive Map
+            value: interactive
+          - label: Static Image
+            value: static
+          - label: List Only
+            value: list

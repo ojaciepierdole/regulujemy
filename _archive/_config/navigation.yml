@@ -1,0 +1,184 @@
+# NAVIGATION MANAGEMENT SYSTEM
+# Menu builder and navigation configuration
+
+collections:
+  menus:
+    name: "Menus"
+    slug: "menus"
+    fields:
+      - name: name
+        type: text
+        required: true
+        
+      - name: slug
+        type: text
+        required: true
+        unique: true
+        
+      - name: location
+        type: select
+        required: true
+        options:
+          - label: Main Navigation
+            value: main
+          - label: Footer Navigation
+            value: footer
+          - label: Mobile Navigation
+            value: mobile
+          - label: Sidebar Navigation
+            value: sidebar
+          - label: Top Bar
+            value: topbar
+            
+      - name: items
+        type: array
+        fields:
+          - name: type
+            type: select
+            required: true
+            options:
+              - label: Page Link
+                value: page
+              - label: Service Link
+                value: service
+              - label: Custom Link
+                value: custom
+              - label: Dropdown
+                value: dropdown
+              - label: Mega Menu
+                value: megamenu
+              - label: Separator
+                value: separator
+                
+          - name: label
+            type: text
+            required: true
+            admin:
+              condition:
+                type:
+                  not_equals: separator
+
+          - name: page
+            type: relationship
+            relationTo: pages
+            admin:
+              condition:
+                type:
+                  equals: page
+                  
+          - name: service
+            type: relationship
+            relationTo: services
+            admin:
+              condition:
+                type:
+                  equals: service
+                  
+          - name: url
+            type: text
+            admin:
+              condition:
+                type:
+                  equals: custom
+                  
+          - name: target
+            type: select
+            defaultValue: _self
+            options:
+              - label: Same Window
+                value: _self
+              - label: New Window
+                value: _blank
+            admin:
+              condition:
+                type:
+                  equals: custom
+                  
+          - name: icon
+            type: text
+            admin:
+              description: "Icon class or SVG"
+              
+          - name: badge
+            type: text
+            admin:
+              description: "Badge text (e.g., 'NEW', 'HOT')"
+              
+          - name: badgeColor
+            type: select
+            options:
+              - label: Red
+                value: red
+              - label: Green
+                value: green
+              - label: Blue
+                value: blue
+              - label: Yellow
+                value: yellow
+            admin:
+              condition:
+                badge:
+                  exists: true
+
+          - name: children
+            type: array
+            admin:
+              condition:
+                type:
+                  in: [dropdown, megamenu]
+            fields:
+              - name: label
+                type: text
+                required: true
+                
+              - name: type
+                type: select
+                defaultValue: page
+                options:
+                  - label: Page Link
+                    value: page
+                  - label: Service Link
+                    value: service
+                  - label: Custom Link
+                    value: custom
+                    
+              - name: page
+                type: relationship
+                relationTo: pages
+                admin:
+                  condition:
+                    type:
+                      equals: page
+                      
+              - name: service
+                type: relationship
+                relationTo: services
+                admin:
+                  condition:
+                    type:
+                      equals: service
+                      
+              - name: url
+                type: text
+                admin:
+                  condition:
+                    type:
+                      equals: custom
+                      
+              - name: description
+                type: text
+                admin:
+                  description: "Short description for mega menu"
+                  
+              - name: icon
+                type: text
+                
+          - name: megaMenuColumns
+            type: number
+            min: 2
+            max: 4
+            defaultValue: 3
+            admin:
+              condition:
+                type:
+                  equals: megamenu

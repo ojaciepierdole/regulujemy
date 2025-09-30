@@ -1,0 +1,782 @@
+[
+	{
+		"answer": "SCHUCO CORONA SI 82 z pakietem trójszybowym - współczynnik U nawet 0,6 W/m²K.",
+		"category": "products",
+		"question": "Jakie okna PCV najlepiej izolują?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Od 10 okien w budynku oferujemy rabaty grupowe: 10-20 okien = -15%, 21-50 okien = -20%, powyżej 50 = -25%. Możliwy też leasing.",
+		"category": "business",
+		"question": "Czy są rabaty dla dużych zleceń?",
+		"subcategory": "Usługi biznesowe"
+	},
+	{
+		"answer": "Tak, można dodać nawiewniki do istniejących okien. Koszt: 120-180 zł za sztukę z montażem. Wiąże się z przewierceniem skrzydła.",
+		"category": "services",
+		"question": "Czy można dodać nawiewniki do istniejących okien?",
+		"subcategory": "Nawiewniki"
+	},
+	{
+		"answer": "Wymiana jest lepsza gdy zawiasy mają ponad 10 lat, są mocno skorodowane, pęknięte lub wielokrotnie naprawiane.",
+		"category": "services",
+		"question": "Kiedy warto wymienić zawiasy zamiast je naprawiać?",
+		"subcategory": "Naprawa zawiasy"
+	},
+	{
+		"answer": "Obsługujemy do 30 km od centrum Warszawy. Piaseczno, Konstancin, Pruszków, Legionowo, Marki - bezpłatnie. Dalej - dopłata 2 zł/km.",
+		"category": "general",
+		"question": "Czy oferujecie usługi poza Warszawą?",
+		"subcategory": "Obsługa lokalizacji"
+	},
+	{
+		"answer": "Standardowo 14-21 dni roboczych od podpisania umowy. W sezonie może być dłużej.",
+		"category": "products",
+		"question": "Ile trwa produkcja okien PCV?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Tak, od 45 zł. Drewno to inna bajka - czasem trzeba odświeżyć lakier, czasem część ramy wymienić. Robimy kompleksowe renowacje, wymiany uszczelek, naprawy mechanizmów. Drewno wymaga więcej czasu i cierpliwości.",
+		"category": "services",
+		"question": "Czy naprawiacie okna drewniane?",
+		"subcategory": "Naprawy okien"
+	},
+	{
+		"answer": "Nie, w 99% przypadków wymieniamy tylko pakiet szybowy. Rama zostaje, okucia zostają. To dużo tańsze niż wymiana całego okna.",
+		"category": "services",
+		"question": "Czy trzeba wymieniać całe okno?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "Dla stałych klientów, przy większych zleceniach, promocje sezonowe. Seniorzy też mogą liczyć na zniżkę.",
+		"category": "pricing",
+		"question": "Czy oferujecie rabaty?",
+		"subcategory": "Płatności i ceny"
+	},
+	{
+		"answer": "Wszystkie rozsądne. Mamy najwięcej doświadczenia z GERDA, DRE, PORTA, POL-SKONE, VOSTER, ERKADO. Ale jeśli kupiłeś gdzie indziej, też zmontujemy.",
+		"category": "services",
+		"question": "Jakie marki montujecie?",
+		"subcategory": "Drzwi"
+	},
+	{
+		"answer": "Pracujemy poniedziałek-piątek 7:00-20:00, sobota 8:00-16:00. Wyjazdy awaryjne: 24/7. Niedziele: tylko pilne przypadki.",
+		"category": "general",
+		"question": "Jakie są godziny pracy?",
+		"subcategory": "Godziny pracy"
+	},
+	{
+		"answer": "Wiele napędów posiada akumulatory awaryjne lub zasilanie solarne, co pozwala na działanie systemu przez 2-7 dni bez zasilania.",
+		"category": "technical",
+		"question": "Czy system działa podczas awarii prądu?",
+		"subcategory": "Automatyka okienna"
+	},
+	{
+		"answer": "Tak, drzwi szklane wymagają precyzyjnego montażu i specjalnych okuć. Koszt montażu jest wyższy o 30-50% ze względu na delikatność materiału.",
+		"category": "services",
+		"question": "Czy montaż drzwi szklanych jest specjalny?",
+		"subcategory": "Montaż drzwi"
+	},
+	{
+		"answer": "Magnetyczne albo na specjalne zaczepy - nie niszczą ramy okna.",
+		"category": "technical",
+		"question": "Czy montaż moskitier odbywa się bez wiercenia?",
+		"subcategory": "Moskitiery i dodatki"
+	},
+	{
+		"answer": "W Warszawie zazwyczaj w ciągu godziny, maksymalnie dwóch. Jeśli masz prawdziwą awarię - okno nie zamyka się na noc, drzwi balkonowe spadły ze swoich prowadnic - to jesteśmy w stanie przyspieszyć. W weekendy trochę dłużej, ale awarie obsługujemy także wtedy.",
+		"category": "general",
+		"question": "Jak szybko możecie przyjechać?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Najlepiej dwa razy w roku - wiosną po zimie i jesienią przed sezonem grzewczym. Okna bardzo intensywnie używane mogą potrzebować uwagi częściej.",
+		"category": "services",
+		"question": "Jak często regulować okna?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "Udostępnij okna, usuń rośliny i dekoracje z parapetów. Zapewnij dostęp z obu stron okna. Całość trwa 30-90 minut na okno.",
+		"category": "services",
+		"question": "Jak przygotować się do wymiany uszczelek?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Można dostawić dodatkowe uszczelki albo użyć środków uszczelniających. To tymczasowo pomoże, ale to nie jest rozwiązanie na lata.",
+		"category": "technical",
+		"question": "Czy można doszczelnić okno bez wymiany uszczelek?",
+		"subcategory": "Uszczelki"
+	},
+	{
+		"answer": "Białe, brązowe, antracyt standardowo. Kolory drewnopodobne za dopłatą.",
+		"category": "products",
+		"question": "Jakie kolory moskitier są dostępne?",
+		"subcategory": "Moskitiery i dodatki"
+	},
+	{
+		"answer": "Tak, mamy szeroką gamę klamek kompatybilnych także ze starszymi systemami okuć.",
+		"category": "technical",
+		"question": "Czy oferujecie serwis dla starszych okien?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Drzwi wewnętrzne 2-3 godziny, zewnętrzne 3-5 godzin. Można zaplanować na następny dzień po dostawie drzwi.",
+		"category": "services",
+		"question": "Ile czasu zajmuje standardowy montaż okna?",
+		"subcategory": "Drzwi"
+	},
+	{
+		"answer": "Ceny zaczynają się od 45 zł za wymianę uszczelek skrzydła. Uszczelki premium od 65 zł, pakiet kompletny od 140 zł. Dokładna wycena po oglądaniu.",
+		"category": "pricing",
+		"question": "Ile kosztuje wymiana uszczelek w oknie?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Nawiewniki automatyczne reagują na wilgotność powietrza - same otwierają się gdy powietrze jest zbyt wilgotne, zamykają gdy suche.",
+		"category": "technical",
+		"question": "Jak działają nawiewniki automatyczne?",
+		"subcategory": "Nawiewniki"
+	},
+	{
+		"answer": "<p>Tak, regulację okien można i warto przeprowadzać zimą. To właśnie wtedy najlepiej widać problemy z uszczelnieniem - przeciągi, wyziębione miejsca czy skraplanie się pary wodnej. <strong>Regulacja zimowa</strong> polega na dociśnięciu skrzydła do ramy poprzez przestawienie mimrośrodów w okuciach. Dzięki temu okna lepiej chronią przed zimnem, a rachunki za ogrzewanie mogą spaść nawet o 15-20%.</p>",
+		"category": "services",
+		"question": "Czy można regulować okna w okresie zimowym?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Ceny zaczynają się od 75 zł za standardowe zawiasy boczne. Wymiana kompletu (zawiasy boczne + nożyce) to koszt od 160 zł, ale z naszym rabatem zapłacisz mniej.",
+		"category": "services",
+		"question": "Ile kosztuje wymiana zawiasów w oknie?",
+		"subcategory": "Wymiana części"
+	},
+	{
+		"answer": "Jedno okno to 20-90 minut, zależy od problemu. Całe mieszkanie (4-5 okien) to 2-3 godziny.",
+		"category": "services",
+		"question": "Ile czasu zajmuje regulacja okna?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Uszkodzeń mechanicznych, normalnego zużycia, szkód przez niewłaściwe użytkowanie, samodzielnych przeróbek.",
+		"category": "warranty",
+		"question": "Czego gwarancja nie obejmuje?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Wykonane prace 1-2 lata, materiały 2-5 lat, nowe okna do 10 lat, montaż drzwi 2 lata.",
+		"category": "warranty",
+		"question": "Jakie okresy gwarancji?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Zależy od tego, co trzeba zrobić. Podstawowa regulacja to 30 zł za skrzydło. Jeśli przy okazji robimy czyszczenie i smarowanie, to 27 zł. Okna balkonowe trochę drożej - od 35 zł, bo są większe i bardziej skomplikowane. Gdy trzeba przyrawiać geometrię okna, ceny zaczynają się od 45 zł. A jeśli jest naprawdę źle i trzeba demontować skrzydło, to już 75 zł.",
+		"category": "services",
+		"question": "Ile kosztują podstawowe usługi?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "EPDM standardowe 5-10 lat, silikonowe do 15 lat. Zależy od jakości i tego, jak okno jest eksploatowane. Okna od południa na pełnym słońcu zużywają uszczelki szybciej.",
+		"category": "technical",
+		"question": "Jak długo wytrzymują uszczelki?",
+		"subcategory": "Uszczelki"
+	},
+	{
+		"answer": "Napędy posiadają wbudowane blokady, a system może być zintegrowany z alarmem antywłamaniowym, zwiększając bezpieczeństwo.",
+		"category": "technical",
+		"question": "Czy automatyka okienna zapewnia bezpieczeństwo przeciwwłamaniowe?",
+		"subcategory": "Automatyka okienna"
+	},
+	{
+		"answer": "Wewnętrzne od 130 zł, zewnętrzne od 330 zł. Przesuwne 462 zł, dwuskrzydłowe 390 zł, szklane 370 zł. Transport i wniesienie gratis - o ile to możliwe fizycznie.",
+		"category": "services",
+		"question": "Ile kosztuje montaż drzwi?",
+		"subcategory": "Drzwi"
+	},
+	{
+		"answer": "Na materiały do 5 lat, na pracę 2 lata.",
+		"category": "warranty",
+		"question": "Gwarancja?",
+		"subcategory": "Uszczelki"
+	},
+	{
+		"answer": "<p><strong>Dojazd w Warszawie jest BEZPŁATNY</strong> przy zamówieniu usługi. Jeśli po diagnostyce zrezygnujesz z naprawy, pobieramy tylko opłatę za ekspertyzę - 50 zł. Otrzymasz wtedy pisemny protokół z opisem usterek i kosztorysem naprawy. W przypadku dojazdu poza Warszawę, koszt ustalamy indywidualnie (zwykle 1-2 zł/km od granicy miasta).</p>",
+		"category": "general",
+		"question": "Ile płacę za sam przyjazd?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Od 2004 roku. To już ponad dwadzieścia lat z oknami, drzwiami i ich problemami. W tym czasie przewinęło się przez nasze ręce kilkanaście tysięcy napraw, regulacji i montaży.",
+		"category": "general",
+		"question": "Od kiedy jesteście na rynku?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Moskitiery są łatwe w utrzymaniu. Wystarczy regularnie czyścić siatkę z kurzu i zanieczyszczeń, używając wilgotnej ściereczki lub odkurzacza z miękką końcówką. W przypadku moskitier rolowanych i plisowanych warto dbać o czystość prowadnic.",
+		"category": "technical",
+		"question": "Jak dbać o moskitiery?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Udzielamy gwarancji od 5 lat na zawiasy standardowe do nawet 10 lat na zawiasy klasy premium. Gwarancja obejmuje zarówno części, jak i montaż.",
+		"category": "warranty",
+		"question": "Jaką gwarancję otrzymam na nowe zawiasy?",
+		"subcategory": "Wymiana zawiasy"
+	},
+	{
+		"answer": "Normalnie 1-6 dni roboczych od pomiaru. W awarii potrafimy w 24-48 godzin, ale to kosztuje więcej.",
+		"category": "services",
+		"question": "Jak długo czeka się na nowe szyby?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "10 zł za metr uszczelki w ramie. Komplet uszczelek w standardowym oknie od 27 zł. W drewnianym od 40 zł, bo to inne uszczelki i więcej roboty.",
+		"category": "services",
+		"question": "Ile kosztuje kompleksowa wymiana elementów okiennych?",
+		"subcategory": "Uszczelki"
+	},
+	{
+		"answer": "<p>Tak, większość okien PCV można skutecznie serwisować nawet po 15-20 latach użytkowania. <strong>Kluczowe działania</strong> to: wymiana uszczelek (przywraca szczelność), wymiana lub regeneracja okuć (poprawia płynność działania), regulacja i konserwacja (eliminuje przeciągi). Koszt takiego kompleksowego serwisu to zazwyczaj 10-20% ceny nowych okien, a efekt może przedłużyć żywotność o kolejne 5-10 lat.</p>",
+		"category": "services",
+		"question": "Moje okna mają 15 lat - da się jeszcze coś zrobić?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Standardowe uszczelki: co 8-12 lat, premium: co 15-20 lat. Kontrola stanu zalecana co 2 lata, szczególnie przed sezonem grzewczym.",
+		"category": "technical",
+		"question": "Jak często trzeba wymieniać uszczelki?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Jedno okno to kwadrans, pół godziny. Jeśli trzeba demontować skrzydło albo problem jest bardziej złożony, to może być godzina.",
+		"category": "services",
+		"question": "Ile czasu zajmuje typowa naprawa okna?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "<p>Oferujemy <strong>24-godzinny serwis awaryjny</strong> dla sytuacji krytycznych. Zadzwoń pod numer awaryjny: <strong>123-456-789</strong>. Dojazd w ciągu 60 minut w Warszawie, do 2 godzin w okolicach. Zabezpieczymy okno, usuniemy zagrożenie i wykonamy niezbędną naprawę tymczasową. Pełna naprawa może być wykonana następnego dnia. Koszt interwencji nocnej to 150-250 zł plus koszt naprawy.</p>",
+		"category": "services",
+		"question": "Co zrobić w przypadku awarii okna w nocy?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Do okien dachowych polecamy pakiety z powloką selektywaną (Control Sun). Chronią przed przegrzaniem i redukcją połysku przy zachowaniu dobrego oświetlenia.",
+		"category": "products",
+		"question": "Jakie szyby do okien dachowych?",
+		"subcategory": "Okna dachowe"
+	},
+	{
+		"answer": "Nowoczesne napędy pracują bardzo cicho (35-45 dB), co odpowiada szeptowi.",
+		"category": "technical",
+		"question": "Jak głośno pracują napędy automatyki okiennej?",
+		"subcategory": "Automatyka okienna"
+	},
+	{
+		"answer": "Większość klamek da się naprawić, ale po 10-15 latach eksploatacji często wymiana jest bardziej opłacalna.",
+		"category": "services",
+		"question": "Czy istnieje możliwość naprawy każdej klamki okiennej?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Tak, aluminium wymaga minimalnej konserwacji - wystarczy mycie 2 razy w roku. Dodatkowo co 5 lat zalecamy smarowanie okuć.",
+		"category": "technical",
+		"question": "Czy okna aluminiowe wymagają konserwacji?",
+		"subcategory": "Okna aluminiowe"
+	},
+	{
+		"answer": "Podstawowe rzeczy jak smarowanie - jasne. Ale jeśli chodzi o regulację śrub, nacisku, geometrię - lepiej zostaw to nam. Źle ustawione okno może się całkiem zepsuje, a naprawa będzie kosztować więcej niż profesjonalna regulacja.",
+		"category": "services",
+		"question": "Czy mogę samodzielnie wyregulować okno?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "Standardowa wymiana kompletu zawiasów w jednym oknie zajmuje nam około 45-60 minut.",
+		"category": "services",
+		"question": "Jak długo trwa wymiana zawiasów?",
+		"subcategory": "Wymiana części"
+	},
+	{
+		"answer": "Telefon: 123-456-789, email: kontakt@regulujemy.pl, formularz online na stronie, WhatsApp: 600-123-456, czat na żywo.",
+		"category": "general",
+		"question": "Jak można się skontaktować?",
+		"subcategory": "Kontakt"
+	},
+	{
+		"answer": "Standardowy montaż to 3-5 godzin. Montaż premium z dodatkowym ociepleniem może zająć do 6-8 godzin.",
+		"category": "services",
+		"question": "Ile trwa montaż drzwi zewnętrznych?",
+		"subcategory": "Montaż drzwi"
+	},
+	{
+		"answer": "Jasne. Drzwi z drewnianą ościeznicą 92 zł, ze stalową 132 zł. Wywieziemy też gruz.",
+		"category": "services",
+		"question": "Czy zajmujecie się demontażem starych drzwi?",
+		"subcategory": "Drzwi"
+	},
+	{
+		"answer": "Standardowe moskitiery skutecznie zatrzymują owady. Dostępne są również specjalne siatki antyalergiczne (tzw. pollen), które dodatkowo chronią przed pyłkami, co jest idealnym rozwiązaniem dla alergików.",
+		"category": "products",
+		"question": "Czy moskitiery chronią przed pyłkami?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Nie zawsze. Niektóre systemy okuć wymagają specjalnych klamek. Sprawdzamy kompatybilność.",
+		"category": "technical",
+		"question": "Czy klamka z kluczem pasuje do każdego okna?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Tak, montujemy przez cały rok. Zimą używamy specjalnych pian montażowych.",
+		"category": "services",
+		"question": "Czy można zamontować okna PCV zimą?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Naprawę usterek z naszej winy, wymianę wadliwych części, dojazd serwisowy, ponowną regulację w pierwszym roku.",
+		"category": "warranty",
+		"question": "Co obejmuje gwarancja?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "<p>Standardowy czas dojazdu to <strong>24-48 godzin</strong> od zgłoszenia. W sytuacjach awaryjnych oferujemy dojazd <strong>w ciągu 2 godzin</strong> (usługa SOS z dopłatą). W Warszawie docieramy średnio w 30-60 minut, w okolicach do 2 godzin. Zawsze potwierdzamy dokładną godzinę przyjazdu SMS-em w dniu wizyty. Możesz też umówić wizytę na konkretną godzinę z wyprzedzeniem.</p>",
+		"category": "general",
+		"question": "Jak szybko możecie przyjechać?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "W dni robocze 15-60 minut w Warszawie. Weekendy i wieczory: do 2 godzin. Awarie pilne: próbujemy w ciągu godziny.",
+		"category": "general",
+		"question": "Jak szybko możecie przyjechać na wezwanie?",
+		"subcategory": "Czas dojazdu"
+	},
+	{
+		"answer": "Standardowa wymiana: 20-30 minut. Skomplikowane przypadki: do 60 minut.",
+		"category": "services",
+		"question": "Ile czasu zajmuje wymiana klamki okiennej?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Tak, oferujemy umowy serwisowe dla budynków biurowych, szkol, szpitali. Pakiet Basic od 99 zł/miesiąc, Standard od 299 zł, Premium od 599 zł.",
+		"category": "business",
+		"question": "Czy macie umowy serwisowe dla firm?",
+		"subcategory": "Usługi biznesowe"
+	},
+	{
+		"answer": "W Warszawie zazwyczaj w ciągu godziny, maksymalnie dwóch. Jeśli masz prawdziwą awarię - okno nie zamyka się na noc, drzwi balkonowe spadły ze swoich prowadnic - to jesteśmy w stanie przyspieszyć. W weekendy trochę dłużej, ale awarie obsługujemy także wtedy.",
+		"category": "general",
+		"question": "Jak szybko możecie przyjechać?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "<p>Klamki z kluczem pasują do <strong>większości okien PCV i aluminiowych</strong> wyprodukowanych po 2000 roku. Standardowy rozstaw śrub to 43mm (norma europejska). Przed zakupem sprawdzimy kompatybilność z Twoim oknem. Dla okien drewnianych lub starszych modeli może być potrzebne dodatkowe dostosowanie otworu. Oferujemy klamki z kluczem marek HOPPE, ROTO z atestem antywłamaniowym klasy RC1/RC2.</p>",
+		"category": "services",
+		"question": "Czy klamka z kluczem pasuje do każdego okna?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Standardowa wymiana kompletu zawiasy w jednym oknie zajmuje nam około 45-60 minut.",
+		"category": "services",
+		"question": "Ile czasu zajmuje wymiana zawiasów?",
+		"subcategory": "Wymiana zawiasy"
+	},
+	{
+		"answer": "W większości przypadków tak. Nasi technicy sprawdzają kompatybilność na miejscu. Czasem konieczne jest zastosowanie specjalnych adapterów.",
+		"category": "services",
+		"question": "Czy nowe zawiasy będą pasować do moich starych okien?",
+		"subcategory": "Wymiana części"
+	},
+	{
+		"answer": "Przede wszystkim z oświetleniem - nawiewniki mogą zasłaniać do 5-10% powierzchni okna. Niektóre modele są bardziej dyskretne.",
+		"category": "technical",
+		"question": "Czy nawiewniki wpływają na oświetlenie?",
+		"subcategory": "Nawiewniki"
+	},
+	{
+		"answer": "Tak, przez aplikację mobilną możesz sterować oknami z dowolnego miejsca na świecie.",
+		"category": "technical",
+		"question": "Czy mogę sterować systemem zdalnie?",
+		"subcategory": "Automatyka okienna"
+	},
+	{
+		"answer": "<p>Jeśli regulacja nie przyniesie oczekiwanych efektów, <strong>nie pobieramy opłaty za usługę</strong>. Nasz serwisant na miejscu oceni przyczynę problemu i zaproponuje alternatywne rozwiązania - mogą to być wymiana uszczelek, naprawa lub wymiana okuć, czy w skrajnych przypadkach wymiana całego okna. Zawsze przedstawiamy kosztorys przed podjęciem dalszych prac, a decyzję pozostawiamy klientowi.</p>",
+		"category": "services",
+		"question": "Co się stanie jeśli regulacja nie rozwiąże problemu?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Moskitiery ramkowe można łatwo zdemontować na zimę i przechować. Moskitiery rolowane i plisowane są bardziej odporne na warunki atmosferyczne i zazwyczaj nie wymagają demontażu, wystarczy je zwinąć do kasety.",
+		"category": "products",
+		"question": "Jak sprawdzić czy moskitiery trzeba zdejmować na zimę?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Główne objawy to: okno nie zamyka się szczelnie, słyszalne trzaski, klamka idzie ciężko lub luzem, problemy z wielopunktowym zamykaniem.",
+		"category": "technical",
+		"question": "Jak poznać że okucia wymagają naprawy?",
+		"subcategory": "Naprawa okuć"
+	},
+	{
+		"answer": "Udzielamy gwarancji od 5 lat na zawiasy standardowe do nawet 10 lat na zawiasy klasy premium. Gwarancja obejmuje zarówno części, jak i montaż.",
+		"category": "warranty",
+		"question": "Jaką gwarancję otrzymam na nowe zawiasy?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Nic, jeśli zdecydujesz się na naprawę. Jeśli po diagnozie zrezygnujesz, wyjazd kosztuje zgodnie z cennikiem - ale uczciwie mówimy o tym już podczas umawiania telefonicznego.",
+		"category": "general",
+		"question": "Ile płacę za sam przyjazd?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Zalecamy regulację 2 razy w roku - wiosną i jesienią, ze względu na sezonowe zmiany wilgotności powietrza.",
+		"category": "technical",
+		"question": "Jak często regulować okna drewniane?",
+		"subcategory": "Regulacja okien drewnianych"
+	},
+	{
+		"answer": "Wszystko na stronie to ceny brutto z VAT.",
+		"category": "pricing",
+		"question": "Czy podajemy ceny brutto czy netto?",
+		"subcategory": "Płatności i ceny"
+	},
+	{
+		"answer": "Instalacja automatyki na 5 okien zajmuje 1-2 dni. Większe systemy mogą wymagać 3-5 dni.",
+		"category": "services",
+		"question": "Ile trwa instalacja automatyki okiennej?",
+		"subcategory": "Automatyka okienna"
+	},
+	{
+		"answer": "Wymiana uszczelek to 45-90 minut na okno, zależnie od typu. Całe mieszkanie (5-6 okien) to około 4-6 godzin.",
+		"category": "services",
+		"question": "Ile czasu zajmuje wymiana uszczelek okiennych?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Okno można tymczasowo zabezpieczyć. Oferujemy serwis awaryjny w godzinach 7:00-22:00.",
+		"category": "services",
+		"question": "Co zrobić w przypadku awarii okna w nocy?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Po bezpłatnych oględzinach masz szczegółowy kosztorys. Bez akceptacji kosztów nie ruszamy z pracami.",
+		"category": "pricing",
+		"question": "Czy przygotowujecie kosztorys?",
+		"subcategory": "Płatności i ceny"
+	},
+	{
+		"answer": "Tak, robimy pakiety przeglądów - kontrola stanu, regulacja, konserwacja, wymiana zużytych części, raport z zaleceniami.",
+		"category": "services",
+		"question": "Czy wykonujecie przeglądy okresowe?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "EPDM (czarne) służą 15-20 lat, TPE (szare) 10-15 lat, silikonowe (przezroczyste) do 25 lat w idealnych warunkach.",
+		"category": "technical",
+		"question": "Jak długo służą uszczelki?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "<p>W <strong>90% przypadków</strong> klamkę da się naprawić. Najczęstsze usterki to zużycie mechanizmu przekladni, poluzowanie śrub mocujących czy pęknięcie plastikowych elementów. Naprawiamy klamki wszystkich popularnych marek: HOPPE, ROTO, SIEGENIA, WINKHAUS. Jeśli naprawa jest niemożliwa lub nieopłacalna, oferujemy wymianę na nową klamkę kompatybilną z Twoim oknem - mamy dostęp do części większości producentów.</p>",
+		"category": "services",
+		"question": "Czy istnieje możliwość naprawy każdej klamki okiennej?",
+		"subcategory": "Naprawa klamek"
+	},
+	{
+		"answer": "Podstawowe jednokomorowe, dwukomorowe dla lepszej izolacji, antywłamaniowe gdy się boisz włamywaczy, dźwiękochłonne przy ruchliwej ulicy. Ornamentowe do łazienek. Można też z powłokami energooszczędnymi.",
+		"category": "products",
+		"question": "Jakie szyby montujecie?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "Bez problemu! Regulacja okien w okresie zimowym jest nawet zalecana, ponieważ pozwala zaoszczędzić na kosztach ogrzewania.",
+		"category": "services",
+		"question": "Czy można regulować okna w okresie zimowym?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "<p>Moskitiery ramkowe są <strong>bardzo łatwe w montażu</strong> - nie wymaga to wiercenia ani specjalnych narzędzi. Montaż polega na wpasowaniu ramy w ościeżnicę okna i zabezpieczeniu zaczepami. Zajmuje to około 5-10 minut na okno. Moskitiery rolowane wymagają przykręcenia kasety i prowadnic - około 30 minut. Oferujemy bezpłatną instrukcję lub profesjonalny montaż za 30-50 zł/szt.</p>",
+		"category": "products",
+		"question": "Czy moskitiery są trudne w montażu?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Tak, wszystkie nasze ceny zawierają profesjonalny montaż z gwarancją.",
+		"category": "pricing",
+		"question": "Czy cena zawiera montaż?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Tak, cena zawiera ościeżnicę, okucia, próg oraz podstawowe materiały montażowe. Dodatkowo płatne są tylko elementy specjalne.",
+		"category": "pricing",
+		"question": "Czy cena montażu drzwi zawiera ościeżnicę?",
+		"subcategory": "Montaż drzwi"
+	},
+	{
+		"answer": "Najlepsze są okna drewniane z trójszybowym pakietem i lakierem ochronnym. Drewno naturalnie reguluje wilgotność i ma właściwości antybakteryjne.",
+		"category": "products",
+		"question": "Jakie okna są najlepsze dla zdrowia?",
+		"subcategory": "Okna drewniane"
+	},
+	{
+		"answer": "Jednostronne lakierowanie to +150 zł/m², dwustronne +280 zł/m². Anodowanie premium kosztuje +320 zł/m².",
+		"category": "pricing",
+		"question": "Ile kosztuje lakierowanie okien drewnianych?",
+		"subcategory": "Okna drewniane"
+	},
+	{
+		"answer": "Akceptujemy gotówkę, płatność kartą u technika, przelew bankowy oraz BLIK. Wybierz najwygodniejszą dla siebie opcję.",
+		"category": "pricing",
+		"question": "Jakie są formy płatności?",
+		"subcategory": "Płatności i ceny"
+	},
+	{
+		"answer": "Nic, jeśli zdecydujesz się na naprawę. Jeśli po diagnozie zrezygnujesz, wyjazd kosztuje zgodnie z cennikiem - ale uczciwie mówimy o tym już podczas umawiania telefonicznego.",
+		"category": "general",
+		"question": "Ile płacę za sam przyjazd?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Telefon, mail z opisem i zdjęciami, formularz na stronie. Odpowiadamy w ciągu 48 godzin.",
+		"category": "warranty",
+		"question": "Jak zgłosić reklamację?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Umowa serwisowa obejmuje: regularne przeglądy (2-4 razy w roku), priorytetowy dojazd w przypadku awarii, rabaty na naprawy (10-30%), raportów ze stanu technicznego.",
+		"category": "business",
+		"question": "Co obejmuje umowa serwisowa?",
+		"subcategory": "Usługi biznesowe"
+	},
+	{
+		"answer": "Uszczelki przede wszystkim - twardnieją, pękają, wypadają. Klamki też lubią się zaciecać albo łamać. Zawiasy się zużywają, szyby pękają. Czasem całe okno się wykrzywia przez osiadanie budynku.",
+		"category": "services",
+		"question": "Co najczęściej psuje się w oknach?",
+		"subcategory": "Naprawy okien"
+	},
+	{
+		"answer": "EPDM premium z membraną - najlepsza trwałość i izolacja. Dla okien standardowych wystarczają uszczelki EPDM standard. Dobierzemy optymalny typ.",
+		"category": "technical",
+		"question": "Jakie uszczelki są najlepsze?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Wykonane prace 1-2 lata, materiały 2-5 lat, nowe okna do 10 lat, montaż drzwi 2 lata.",
+		"category": "warranty",
+		"question": "Jakie okresy gwarancji?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Ramkowe od 75 zł - najprostsze. Rolowane od 505 zł - schowane gdy nie potrzeba. Przesuwne od 420 zł - do większych okien. Drzwiowe od 445 zł. Magnetyczne od 255 zł - bez wiercenia.",
+		"category": "products",
+		"question": "Jakie moskitiery macie?",
+		"subcategory": "Moskitiery i dodatki"
+	},
+	{
+		"answer": "Tak, standardowe: 3 lata, premium: 5 lat, aluminiowe: 7 lat. Gwarancja obejmuje materiały i wykonanie. Możliwość przedłużenia w umowie serwisowej.",
+		"category": "warranty",
+		"question": "Czy wymiana uszczelek obejmuje gwarancję?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "W większości przypadków tak. Nasi technicy sprawdzają kompatybilność na miejscu. Czasem konieczne jest zastosowanie specjalnych adapterów.",
+		"category": "technical",
+		"question": "Czy nowe zawiasy będą pasować do moich starych okien?",
+		"subcategory": "Wymiana zawiasy"
+	},
+	{
+		"answer": "Ceny zaczynają się od 75 zł za standardowe zawiasy boczne. Wymiana kompletu (zawiasy boczne + nożyce) to koszt od 160 zł, ale z naszym rabatem zapłacisz mniej.",
+		"category": "services",
+		"question": "Ile kosztuje wymiana zawiasy w oknie?",
+		"subcategory": "Wymiana zawiasy"
+	},
+	{
+		"answer": "Nowoczesne siatki moskitier są niemal niewidoczne i nie ograniczają widoczności ani dostępu światła. Ich struktura jest zaprojektowana tak, aby maksymalnie przepuszczać światło i powietrze.",
+		"category": "products",
+		"question": "Czy moskitiery ograniczają widoczność?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Standardowo 2-4 tygodnie od zamówienia. W sezonie (marzec-czerwiec) może być dłużej - nawet do 6 tygodni.",
+		"category": "products",
+		"question": "Ile trwa produkcja drzwi drewnianych?",
+		"subcategory": "Drzwi drewniane"
+	},
+	{
+		"answer": "Wszystkie dzielnice Warszawy obsługujemy bezpłatnie. Najszybciej dojeżdżamy na Mokotów i Ursyno (15-25 minut), najdłużej na Bemowo i Białołękę (45-60 minut).",
+		"category": "general",
+		"question": "Które dzielnice Warszawy obsługujecie?",
+		"subcategory": "Obsługa lokalizacji"
+	},
+	{
+		"answer": "Zależy od usterki. Zamiana klamki to 30 zł plus część. Nowe uszczelki 10 zł za metr. Wymiany okuć od 50 zł. Podstawowa regulacja i konserwacja 27 zł. Trzeba popatrzeć na okno, żeby podać konkretną cenę.",
+		"category": "services",
+		"question": "Ile kosztuje naprawa okien PCV?",
+		"subcategory": "Naprawy okien"
+	},
+	{
+		"answer": "Wystawiamy faktury VAT, mamy wszystkie wymagane uprawnienia budowlane, ubezpieczenie OC i AC. Pełna dokumentacja dla firm.",
+		"category": "business",
+		"question": "Jakie dokumenty wystawiacie dla firm?",
+		"subcategory": "Usługi biznesowe"
+	},
+	{
+		"answer": "Oczyście. Elektroniczne albo papierowe - jak wolisz.",
+		"category": "general",
+		"question": "Czy wystawiamy faktury VAT?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Okno ci tego jasno powie. Trudno się otwiera lub zamyka, wieje mimo że jest zamknięte, skrzydło ociera o ramę przy otwieraniu, klamka nie wraca do pozycji poziomej. Niektóre okna mają też skłonność do samoczynnego otwierania lub zamykania - to już wyraźny sygnał.",
+		"category": "services",
+		"question": "Jak sprawdzić czy okno wymaga regulacji?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "Głównie w Warszawie - wszystkie dzielnice, od Wilanowa po Białołękę. Jeździmy też do miejscowości w promieniu 50 km od stolicy, ale wtedy mogą być dodatkowe koszty dojazdu. Na Mokotowie, Ursynowie czy Bemowie jesteśmy praktycznie sąsiadami.",
+		"category": "general",
+		"question": "Na jakich obszarach działacie?",
+		"subcategory": "Podstawowe sprawy"
+	},
+	{
+		"answer": "Naprawę usterek z naszej winy, wymianę wadliwych części, dojazd serwisowy, ponowną regulację w pierwszym roku.",
+		"category": "warranty",
+		"question": "Co obejmuje gwarancja?",
+		"subcategory": "Gwarancje"
+	},
+	{
+		"answer": "Gdy koszty naprawy przekraczają 60% ceny nowego okna. Gdy rama jest poważnie uszkodzona - pęknięta, przegniła. Gdy okno ma 20+ lat i jednocześnie jest energetycznie nieefektywne. Czasem po prostu nie ma sensu reanimować okna, które i tak będzie sprawiać problemy.",
+		"category": "services",
+		"question": "Kiedy nie warto naprawiać okna?",
+		"subcategory": "Naprawy okien"
+	},
+	{
+		"answer": "Widać pęknięcia, guma jest twarda jak kamień, wieje mimo zamkniętego okna. Czasem para kondensuje się między szybami - to znaczy, że uszczelki pakietu szybowego się zepsuły.",
+		"category": "technical",
+		"question": "Jak sprawdzić czy uszczelki wymagają wymiany?",
+		"subcategory": "Uszczelki"
+	},
+	{
+		"answer": "Nie zawsze. Producenci mają różne standardy dystanców. Najlepiej przyniesć kawałek starej ramki dystansowej do dopasowania.",
+		"category": "technical",
+		"question": "Czy pakiety szybowe są uniwersalne?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "Jednostronne od +110 zł/m², dwustronne od +220 zł/m². Duży wybór kolorów.",
+		"category": "pricing",
+		"question": "Ile kosztuje laminowanie okien?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Tak, ale w temperaturach powyżej -10°C. Niektóre materiały wymagają temperatury +5°C. Pilne naprawy wykonujemy przez cały rok.",
+		"category": "services",
+		"question": "Czy można wymieniać uszczelki zimą?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Standard to RC2 (oporność 3-5 minut). Dla wyższego bezpieczeństwa polecamy RC3 (10-20 minut) lub RC4 (30-50 minut).",
+		"category": "products",
+		"question": "Jaka klasa antywłamaniowa jest polecana?",
+		"subcategory": "Bezpieczeństwo"
+	},
+	{
+		"answer": "Objawy to: przeciągi przy zamkniętym oknie, kondensacja pary wodnej, zwiększone koszty ogrzewania, uszczelki twarde lub popękane.",
+		"category": "technical",
+		"question": "Kiedy wymienić uszczelki?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "Ceny zaczynają się od 65 zł za naprawę podstawową. Kompleksowa naprawa wielopunktowego zamykania to koszt od 85-120 zł.",
+		"category": "services",
+		"question": "Ile kosztuje naprawa okuć okiennych?",
+		"subcategory": "Naprawa okuć"
+	},
+	{
+		"answer": "Standardowo 2-5 dni roboczych. W sezonie (październik-listopad) może być dłużej - do 7-10 dni.",
+		"category": "services",
+		"question": "Ile czasu oczekiwania na wymianę szyby?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "W oknie PCV od 69 zł, w drewnianym od 128 zł, w aluminiowym od 135 zł. Do tego pakiet szybowy - od 60 zł za metr kwadratowy dla zwykłej szyby jednokomorowej. Im lepsza izolacja, tym drożej.",
+		"category": "services",
+		"question": "Ile kosztuje nowa szyba?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "Zależy od tego, co trzeba zrobić. Podstawowa regulacja to 30 zł za skrzydło. Jeśli przy okazji robimy czyszczenie i smarowanie, to 27 zł. Okna balkonowe trochę drożej - od 35 zł.",
+		"category": "services",
+		"question": "Ile kosztuje regulacja okna?",
+		"subcategory": "Regulacja okien"
+	},
+	{
+		"answer": "Można użyć łagodnych detergentów i miękkich ścierek. Unikać środków żrących i szczotek. Co pół roku zalecamy smarowanie okuć.",
+		"category": "technical",
+		"question": "Jak czyścić okna PCV?",
+		"subcategory": "Okna PCV"
+	},
+	{
+		"answer": "Robimy też nietypowe wymiary, skośne ościeznice, drzwi do starych budynków. To wymaga indywidualnej wyceny po obejrzeniu na miejscu.",
+		"category": "services",
+		"question": "Czy oferujecie drzwi niestandardowe?",
+		"subcategory": "Drzwi"
+	},
+	{
+		"answer": "Tak, drewno 'pracuje' z wilgocią i temperaturą. Regulacja uwzględnia sezonowe ruchy drewna i wymaga specjalnych technik.",
+		"category": "services",
+		"question": "Czy okna drewniane wymagają innej regulacji niż PCV?",
+		"subcategory": "Regulacja okien drewnianych"
+	},
+	{
+		"answer": "Nie, przyjeżdżamy, mierzymy, wyceniamy za darmo. Zwykle w dniu zgłoszenia albo następnego dnia.",
+		"category": "services",
+		"question": "Czy pomiar jest płatny?",
+		"subcategory": "Wymiana szyb"
+	},
+	{
+		"answer": "Zazwyczaj tak. PCV jest trwałe, problemem są okucia - ale te da się naprawić/wymienić.",
+		"category": "services",
+		"question": "Moje okna mają 15 lat - da się jeszcze coś zrobić?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Wszystkie na wymiar. Pomiar gratis, realizacja 3-7 dni.",
+		"category": "services",
+		"question": "Czy moskitiery są wykonywane na wymiar?",
+		"subcategory": "Moskitiery i dodatki"
+	},
+	{
+		"answer": "Tak, można wymienić tylko część uszczelek, np. tylko skrzydło lub ramę. Ale przy podobnym wieku lepiej wymienić wszystkie.",
+		"category": "services",
+		"question": "Czy można wymienić tylko część uszczelek?",
+		"subcategory": "Wymiana uszczelek"
+	},
+	{
+		"answer": "<p>Standardowa regulacja jednego okna zajmuje od <strong>15 do 30 minut</strong>. Czas zależy od stopnia rozregulowania, rodzaju okuć oraz liczby skrzydeł. W przypadku okien balkonowych lub dużych przeszkleń regulacja może potrwać do 45 minut. Jeśli regulacja obejmuje całe mieszkanie (średnio 5-7 okien), należy zarezerwować około 2-3 godzin.</p>",
+		"category": "services",
+		"question": "Ile czasu zajmuje regulacja okna?",
+		"subcategory": "Regulacja okien PCV"
+	},
+	{
+		"answer": "Najpopularniejsze to biały (65%), antracyt (20%) i brązowy (10%). W systemach premium dostępnych jest ponad 200 kolorów RAL.",
+		"category": "products",
+		"question": "Jakie są najpopularniejsze kolory okien aluminiowych?",
+		"subcategory": "Okna aluminiowe"
+	},
+	{
+		"answer": "Większość naszych moskitier, zwłaszcza ramkowych, montowana jest bezinwazyjnie, co oznacza, że nie wymagają wiercenia w ramie okna. Nasi specjaliści zapewniają szybki i profesjonalny montaż.",
+		"category": "products",
+		"question": "Czy moskitiery są trudne w montażu?",
+		"subcategory": "Moskitiery"
+	},
+	{
+		"answer": "Obecnie nie oferujemy systemu ratalnego. Przy większych zleceniach możliwe jest rozłożenie płatności: 50% przed rozpoczęciem prac, 50% po ich zakończeniu.",
+		"category": "pricing",
+		"question": "Czy istnieje możliwość rozłożenia płatności na raty?",
+		"subcategory": "Płatności i ceny"
+	},
+	{
+		"answer": "Tak, naprawiamy zawiasy wszystkich typów: boczne, górne (nożyce), standardowe i wzmocnione. Mamy części do wszystkich popularnych marek.",
+		"category": "services",
+		"question": "Czy można naprawić każdy rodzaj zawiasu?",
+		"subcategory": "Naprawa zawiasy"
+	}
+]

@@ -1,0 +1,179 @@
+# FRONT-END COMPONENTS CONFIGURATION
+# Reusable UI components for consistent design
+
+components:
+  # Navigation Components
+  navigation:
+    header:
+      name: "Header Navigation"
+      props:
+        - logo: Image
+        - menuItems: Array
+        - ctaButton: Object
+        - sticky: Boolean
+        - transparent: Boolean
+      variants:
+        - default
+        - transparent
+        - dark
+        - light
+        
+    mobile_menu:
+      name: "Mobile Menu"
+      props:
+        - menuItems: Array
+        - isOpen: Boolean
+        - onClose: Function
+      variants:
+        - slide-left
+        - slide-right
+        - fullscreen
+        
+    breadcrumb:
+      name: "Breadcrumb Navigation"
+      props:
+        - items: Array
+        - separator: String
+        - showHome: Boolean
+      variants:
+        - default
+        - slash
+        - chevron
+        
+  # Button Components
+  buttons:
+    primary_button:
+      name: "Primary Button"
+      props:
+        - text: String
+        - link: String
+        - size: Enum[small, medium, large]
+        - icon: String
+        - loading: Boolean
+      variants:
+        - default
+        - rounded
+        - pill
+        
+    cta_button:
+      name: "CTA Button"
+      props:
+        - text: String
+        - phone: String
+        - whatsapp: String
+        - style: Enum[phone, whatsapp, email]
+      animations:
+        - pulse
+        - shake
+        - glow
+
+  # Card Components
+  cards:
+    service_card:
+      name: "Service Card"
+      props:
+        - title: String
+        - description: String
+        - price: String
+        - image: Image
+        - link: String
+        - badge: String
+        - featured: Boolean
+      variants:
+        - default
+        - horizontal
+        - minimal
+        - detailed
+        
+    pricing_card:
+      name: "Pricing Card"
+      props:
+        - title: String
+        - price: String
+        - unit: String
+        - features: Array
+        - highlighted: Boolean
+        - ctaText: String
+        - ctaLink: String
+      variants:
+        - default
+        - premium
+        - compact
+        
+    location_card:
+      name: "Location Card"
+      props:
+        - name: String
+        - address: String
+        - phone: String
+        - hours: Object
+        - image: Image
+        - mapLink: String
+      variants:
+        - default
+        - with-map
+        - compact
+
+  # Form Components
+  forms:
+    contact_form:
+      name: "Contact Form"
+      fields:
+        - name: Text
+        - email: Email
+        - phone: Phone
+        - service: Select
+        - message: Textarea
+        - consent: Checkbox
+      variants:
+        - default
+        - inline
+        - modal
+        - sidebar
+        
+    quick_quote:
+      name: "Quick Quote Form"
+      fields:
+        - service: Select
+        - urgency: Radio
+        - phone: Phone
+        - preferredTime: Select
+      variants:
+        - floating
+        - embedded
+        - popup
+        
+  # Layout Components
+  layouts:
+    container:
+      name: "Container"
+      props:
+        - width: Enum[narrow, default, wide, full]
+        - padding: Enum[none, small, medium, large]
+      variants:
+        - default
+        - fluid
+        
+    grid:
+      name: "Grid Layout"
+      props:
+        - columns: Number
+        - gap: Enum[small, medium, large]
+        - responsive: Boolean
+      breakpoints:
+        - mobile: 1
+        - tablet: 2
+        - desktop: columns
+        
+    section:
+      name: "Section"
+      props:
+        - background: String
+        - padding: Enum[none, small, medium, large]
+        - id: String
+        - className: String
+      variants:
+        - default
+        - hero
+        - alternating
+        - parallax

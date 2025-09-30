@@ -1,0 +1,184 @@
+# MEDIA MANAGEMENT CONFIGURATION
+# Asset management and optimization settings
+
+collections:
+  media:
+    name: "Media"
+    slug: "media"
+    upload:
+      staticURL: "/media"
+      staticDir: "media"
+      mimeTypes:
+        - image/jpeg
+        - image/png
+        - image/gif
+        - image/webp
+        - image/svg+xml
+        - application/pdf
+        - video/mp4
+        - video/webm
+      imageSizes:
+        - name: thumbnail
+          width: 150
+          height: 150
+          position: center
+          
+        - name: small
+          width: 400
+          height: 300
+          position: center
+          
+        - name: medium
+          width: 800
+          height: 600
+          position: center
+          
+        - name: large
+          width: 1200
+          height: 900
+          position: center
+          
+        - name: hero
+          width: 1920
+          height: 1080
+          position: center
+          
+        - name: og
+          width: 1200
+          height: 630
+          position: center
+          
+      formatOptions:
+        format: webp
+        options:
+          quality: 80
+          
+    fields:
+      - name: alt
+        type: text
+        required: true
+        admin:
+          description: "Opis alternatywny dla SEO i dostępności"
+          
+      - name: caption
+        type: text
+        admin:
+          description: "Podpis pod zdjęciem"
+          
+      - name: credit
+        type: text
+        admin:
+          description: "Autor/źródło zdjęcia"
+          
+      - name: folder
+        type: relationship
+        relationTo: media-folders
+        admin:
+          description: "Folder organizacyjny"
+          
+      - name: tags
+        type: array
+        fields:
+          - name: tag
+            type: text
+            
+      - name: usageRights
+        type: select
+        options:
+          - label: Własne
+            value: owned
+          - label: Licencjonowane
+            value: licensed
+          - label: Stock
+            value: stock
+          - label: Creative Commons
+            value: cc
+            
+      - name: expiryDate
+        type: date
+        admin:
+          description: "Data wygaśnięcia licencji"
+
+  media_folders:
+    name: "Media Folders"
+    slug: "media-folders"
+    fields:
+      - name: name
+        type: text
+        required: true
+        
+      - name: slug
+        type: text
+        required: true
+        unique: true
+        
+      - name: parent
+        type: relationship
+        relationTo: media-folders
+        
+      - name: description
+        type: textarea
+        
+      - name: isPublic
+        type: checkbox
+        defaultValue: true
+        
+    admin:
+      useAsTitle: name
+      defaultColumns:
+        - name
+        - parent
+        - createdAt
+
+# Media Processing Settings
+processing:
+  images:
+    optimization:
+      quality: 85
+      progressive: true
+      strip: true  # Remove metadata
+      
+    responsive:
+      enabled: true
+      breakpoints:
+        - 320   # Mobile
+        - 640   # Mobile landscape
+        - 768   # Tablet
+        - 1024  # Desktop
+        - 1440  # Large desktop
+        - 1920  # Full HD
+        
+    lazy_loading:
+      enabled: true
+      placeholder: blur  # blur, lqip, or solid
+      
+    cdn:
+      enabled: false  # Set to true when CDN is configured
+      url: ""
+      
+  videos:
+    max_size: 100  # MB
+    formats:
+      - mp4
+      - webm
+    optimization:
+      compress: true
+      max_bitrate: 5000  # kbps
+      
+# Storage Settings
+storage:
+  provider: local  # local, s3, cloudinary
+  local:
+    path: ./media
+    public_path: /media
+    
+  s3:  # Configuration for S3 when needed
+    bucket: ""
+    region: ""
+    access_key: ""
+    secret_key: ""
+    
+  cloudinary:  # Configuration for Cloudinary when needed
+    cloud_name: ""
+    api_key: ""
+    api_secret: ""

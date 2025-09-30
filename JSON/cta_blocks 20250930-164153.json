@@ -1,0 +1,26 @@
+[
+	{
+		"button_text": "Zamawiam wycenę",
+		"name": "CTA Wycena",
+		"status": "active",
+		"title": "Umów bezpłatną wycenę"
+	},
+	{
+		"button_text": "Zadzwoń teraz",
+		"name": "CTA Telefon",
+		"status": "active",
+		"title": "Zadzwoń już teraz!"
+	},
+	{
+		"button_text": "Zamów wycenę",
+		"name": "CTA Wycena",
+		"status": "active",
+		"title": "Potrzebujesz wyceny?"
+	},
+	{
+		"button_text": "Zadzwoń teraz",
+		"name": "CTA Telefon",
+		"status": "active",
+		"title": "Potrzebujesz pomocy?"
+	}
+]

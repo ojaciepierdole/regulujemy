@@ -1,0 +1,174 @@
+# PAGE TEMPLATES CONFIGURATION
+# Flexible page building with templates and layouts
+
+collections:
+  pages:
+    name: "Pages"
+    slug: "pages"
+    fields:
+      - name: title
+        type: text
+        required: true
+        
+      - name: slug
+        type: text
+        required: true
+        unique: true
+        admin:
+          position: sidebar
+          
+      - name: template
+        type: select
+        required: true
+        defaultValue: default
+        options:
+          - label: Default
+            value: default
+          - label: Landing Page
+            value: landing
+          - label: Service Page
+            value: service
+          - label: Location Page
+            value: location
+          - label: Contact Page
+            value: contact
+          - label: About Page
+            value: about
+          - label: Blog Post
+            value: blog-post
+          - label: Blog Archive
+            value: blog-archive
+          - label: Custom
+            value: custom
+            
+      - name: blocks
+        type: blocks
+        blocks:
+          - hero_block
+          - content_block
+          - service_card_block
+          - pricing_table_block
+          - cta_block
+          - testimonial_block
+          - faq_block
+          - gallery_block
+          - location_block
+        admin:
+          description: "Drag and drop blocks to build your page"
+
+      - name: seo
+        type: group
+        admin:
+          position: sidebar
+        fields:
+          - name: title
+            type: text
+            admin:
+              description: "Leave empty to use page title"
+              
+          - name: description
+            type: textarea
+            maxLength: 160
+            
+          - name: keywords
+            type: text
+            
+          - name: image
+            type: upload
+            relationTo: media
+            
+          - name: noindex
+            type: checkbox
+            defaultValue: false
+            
+      - name: status
+        type: select
+        defaultValue: draft
+        admin:
+          position: sidebar
+        options:
+          - label: Draft
+            value: draft
+          - label: Review
+            value: review
+          - label: Published
+            value: published
+          - label: Archived
+            value: archived
+            
+      - name: publishedAt
+        type: date
+        admin:
+          position: sidebar
+          description: "Schedule future publishing"
+          
+      - name: author
+        type: relationship
+        relationTo: users
+        admin:
+          position: sidebar
+
+    admin:
+      useAsTitle: title
+      defaultColumns:
+        - title
+        - template
+        - status
+        - publishedAt
+      preview:
+        enabled: true
+        url: "https://regulujemy.pl/preview"
+        
+    hooks:
+      beforeChange:
+        - generateSlug
+        - validateSEO
+        - checkDuplicates
+      afterChange:
+        - clearCache
+        - updateSitemap
+        - triggerRevalidation
+
+# Template Definitions
+templates:
+  default:
+    name: "Default Template"
+    allowedBlocks:
+      - all
+    layout:
+      header: default
+      footer: default
+      
+  landing:
+    name: "Landing Page"
+    allowedBlocks:
+      - hero_block
+      - service_card_block
+      - testimonial_block
+      - cta_block
+      - pricing_table_block
+      - faq_block
+    layout:
+      header: transparent
+      footer: default
+    requiredBlocks:
+      - hero_block
+      
+  service:
+    name: "Service Page"
+    allowedBlocks:
+      - hero_block
+      - content_block
+      - pricing_table_block
+      - faq_block
+      - cta_block
+      - testimonial_block
+      - gallery_block
+    layout:
+      header: default
+      footer: default
+      sidebar: true
+    requiredBlocks:
+      - hero_block
+      - content_block
+      - pricing_table_block

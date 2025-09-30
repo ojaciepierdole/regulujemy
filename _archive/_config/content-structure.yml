@@ -1,0 +1,171 @@
+# CONTENT STRUCTURE FOR HEADLESS CMS
+# Defines content types, relationships, and dynamic references
+
+# Content Types
+content_types:
+  page:
+    fields:
+      - title
+      - description
+      - keywords
+      - content
+      - author
+      - created_date
+      - modified_date
+      - layout
+      - tags
+      - category
+      - seo_title
+      - meta_description
+    
+  service:
+    extends: page
+    fields:
+      - price_from
+      - duration
+      - warranty_period
+      - service_category
+      - related_services
+      - location_availability
+      - business_hours
+    
+  location:
+    extends: page
+    fields:
+      - district_name
+      - city
+      - coordinates
+      - coverage_area
+      - response_times
+      - local_phone_extension
+      - featured_services
+    
+  blog_post:
+    extends: page
+    fields:
+      - excerpt
+      - reading_time
+      - post_category
+      - related_posts
+      - cta_type
+
+# URL Structure Patterns
+url_patterns:
+  services: "/uslugi/{category}/{service-slug}"
+  locations: "/lokalizacje/{city}/{district-slug}"
+  products: "/produkty/{category}/{product-slug}"
+  blog: "/blog/{category}/{post-slug}"
+  pages: "/{page-slug}"
+
+# Dynamic Reference Patterns
+dynamic_references:
+  internal_links:
+    # Service cross-references
+    service_links: "{{baseUrl}}/uslugi/{{category}}/{{slug}}"
+    location_links: "{{baseUrl}}/lokalizacje/{{city}}/{{district}}"
+    product_links: "{{baseUrl}}/produkty/{{category}}/{{slug}}"
+    
+  contact_references:
+    # Phone numbers from contact.yml
+    primary_phone: "{{contact.primary.phone_display}}"
+    emergency_phone: "{{contact.emergency.phone}}"
+    business_phone: "{{contact.business.phone}} {{contact.business.extension}}"
+    
+  pricing_references:
+    # Dynamic pricing display
+    price_display: "od {{price}} zł"
+    price_range: "{{price_min}}-{{price_max}} zł"
+    
+# Content Relationships
+relationships:
+  service_to_location:
+    type: "many_to_many"
+    description: "Services available in specific locations"
+    
+  service_to_service:
+    type: "many_to_many"
+    description: "Related and complementary services"
+    
+  blog_to_service:
+    type: "many_to_many" 
+    description: "Blog posts related to specific services"
+    
+  location_to_service:
+    type: "many_to_many"
+    description: "Featured services per location"
+
+# Content Categories
+categories:
+  services:
+    - regulacja-okien
+    - naprawa-okien
+    - wymiana-czesci
+    - uszczelnianie
+    - montaz-sprzedaz
+    - biznes
+    - specjalistyczne
+    
+  locations:
+    - warszawa
+    - inne-miasta
+    
+  products:
+    - okna
+    - drzwi
+    - okucia
+    - szyby
+    - systemy
+    - zabezpieczenia-i-dodatki
+    
+  blog:
+    - poradniki
+    - diagnostyka
+    - realizacje
+
+# Template Components for CMS
+components:
+  navigation:
+    main_menu:
+      - uslugi
+      - lokalizacje
+      - produkty
+      - cennik
+      - kontakt
+      - blog
+      
+  cta_blocks:
+    primary: "{{contact.cta_templates.primary}}"
+    emergency: "{{contact.cta_templates.emergency}}"
+    business: "{{contact.cta_templates.business}}"
+    
+  contact_info:
+    phone: "{{contact.primary.phone_display}}"
+    email: "{{contact.primary.email}}"
+    hours: "{{contact.primary.hours}}"
+    address: "{{contact.locations.headquarters.address}}"
+
+# SEO Patterns
+seo_templates:
+  service_title: "{{service_name}} - {{location}} | {{company.name}}"
+  service_description: "{{service_description}} w {{location}}. {{company.tagline}}. {{contact.primary.phone_display}}"
+  location_title: "Serwis okien {{district_name}} - {{company.name}}"
+  location_description: "Profesjonalny serwis okien w dzielnicy {{district_name}}. {{response_time}} min dojazd. {{contact.primary.phone_display}}"
+
+# Migration Mapping
+migration_mapping:
+  frontmatter_to_cms:
+    title: "title"
+    description: "meta_description"
+    keywords: "seo_keywords"
+    author: "author"
+    utworzono: "created_date"
+    zmodyfikowano: "modified_date"
+    tags: "tags"
+    category: "content_category"
+    layout: "template_type"
+    
+  content_structure:
+    navigation_breadcrumbs: "auto_generated"
+    pricing_tables: "structured_data"
+    contact_blocks: "dynamic_component"
+    related_links: "relationship_query"

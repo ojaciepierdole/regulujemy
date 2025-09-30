@@ -1,0 +1,156 @@
+# API ENHANCEMENTS AND HOOKS
+# Custom API endpoints, hooks, and validations for Payload CMS
+
+custom_endpoints:
+  # Service availability checker
+  check_availability:
+    path: /api/services/check-availability
+    method: POST
+    handler: checkServiceAvailability
+    params:
+      - serviceId: string
+      - date: string
+      - location: string
+    response:
+      available: boolean
+      nextAvailable: string
+      responseTime: number
+      
+  # Quote calculator
+  calculate_quote:
+    path: /api/quote/calculate
+    method: POST
+    handler: calculateQuote
+    params:
+      - services: array
+      - location: string
+      - urgency: string
+    response:
+      total: number
+      breakdown: array
+      discount: number
+      validUntil: string
+      
+  # Location finder
+  find_nearest:
+    path: /api/locations/nearest
+    method: GET
+    handler: findNearestLocation
+    params:
+      - lat: number
+      - lng: number
+      - service: string
+    response:
+      location: object
+      distance: number
+      responseTime: number
+
+hooks:
+  collections:
+    services:
+      beforeChange:
+        - validatePricing
+        - generateSlug
+        - updateAvailability
+      afterChange:
+        - clearCache
+        - updateSearchIndex
+        - notifyTeam
+      beforeDelete:
+        - checkDependencies
+        - archiveData
+        
+    products:
+      beforeChange:
+        - validateStock
+        - generateSKU
+        - checkPricing
+      afterChange:
+        - updateInventory
+        - syncWithERP
+        
+    pages:
+      beforeChange:
+        - validateSEO
+        - checkLinks
+        - generateSlug
+      afterChange:
+        - generateSitemap
+        - purgeCache
+        - triggerBuild
+
+validations:
+  pricing:
+    rules:
+      - priceFrom:
+          min: 0
+          max: 10000
+      - priceUnit:
+          enum: [usluga, godzina, m2, sztuka, mb]
+      - discount:
+          max: 100
+          
+  seo:
+    rules:
+      - title:
+          maxLength: 60
+          required: true
+      - description:
+          maxLength: 160
+          required: true
+      - slug:
+          pattern: ^[a-z0-9-]+$
+          unique: true
+          
+  availability:
+    rules:
+      - responseTime:
+          min: 15
+          max: 120
+      - emergencyAvailable:
+          type: boolean
+      - workingHours:
+          format: HH:MM - HH:MM
+
+access_control:
+  roles:
+    admin:
+      collections:
+        - create: true
+        - read: true
+        - update: true
+        - delete: true
+      globals:
+        - read: true
+        - update: true
+        
+    editor:
+      collections:
+        services:
+          - create: true
+          - read: true
+          - update: true
+          - delete: false
+        products:
+          - create: true
+          - read: true
+          - update: true
+          - delete: false
+        pages:
+          - create: true
+          - read: true
+          - update: true
+          - delete: false
+      globals:
+        - read: true
+        - update: false
+        
+    viewer:
+      collections:
+        - create: false
+        - read: true
+        - update: false
+        - delete: false
+      globals:
+        - read: true
+        - update: false

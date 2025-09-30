@@ -1,0 +1,156 @@
+Klasa;Kategoria;Podkategoria;Usługa / Produkt;Cena OD;Jednostka;Dodatki;Uwagi
+Usługi;Regulacja;Okna;Regulacja standardowa skrzydła okiennego;40;zł;;
+Usługi;Regulacja;Okna;Regulacja z czyszczeniem i smarowaniem;60;zł;;
+Usługi;Regulacja;Okna;Regulacja okien balkonowych;65;zł;;
+Usługi;Regulacja;Okna;Regulacja z przywracaniem geometrii;150;zł;;
+Usługi;Regulacja;Okna;Zaawansowana regulacja ze zdejmowaniem skrzydła;99;zł;;
+Usługi;Regulacja;Okna;Regulacja okien przesuwnych PSK/HS;250;zł;;
+Usługi;Regulacja;Drzwi;Regulacja drzwi wewnętrznych;60;zł;;
+Usługi;Regulacja;Drzwi;Regulacja drzwi zewnętrznych;180;zł;;
+Usługi;Regulacja;Drzwi;Regulacja drzwi balkonowych;65;zł;;
+Usługi;Regulacja;Drzwi;Regulacja drzwi PCV;99;zł;;
+Usługi;Regulacja;Drzwi;Regulacja drzwi;150;zł;;
+Usługi;Regulacja;Drzwi;Regulacja bramy garażowej;350;zł;;
+Usługi;Naprawa;Okna;Naprawa okien PCV;75;zł;;Według typu okna
+Usługi;Naprawa;Okna;Naprawa okien drewnianych;99;zł;;Według typu okna
+Usługi;Naprawa;Okna;Naprawa okien aluminiowych;99;zł;;Według typu okna
+Usługi;Naprawa;Drzwi;Naprawa drzwi balkonowych;65;zł;;Według typu okna
+Usługi;Naprawa;Okna;Naprawa mechanizmu otwierania;65;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Naprawa/wymiana klamki;39;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Naprawa zawiasów;200;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Naprawa zamka;60;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Usunięcie obluzowania szyby;99;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Naprawa mikrowentylacji;40;zł;;Według zakresu naprawy
+Usługi;Naprawa;Okna;Wymiana szyby w oknie PCV;69;zł;;
+Usługi;Naprawa;Okna;Wymiana szyby w oknie drewnianym;128;zł;;
+Usługi;Naprawa;Okna;Wymiana szyby w oknie aluminiowym;135;zł;;
+Usługi;Naprawa;Drzwi;Wymiana szyby w drzwiach drewnianych;250;zł;;
+Usługi;Naprawa;Drzwi;Wymiana szyby w drzwiach aluminiowych;210;zł;;
+Usługi;Naprawa;Drzwi;Wymiana szyby w drzwiach przesuwnych;250;zł;;
+Produkty;Szyby;Pakiety szybowe;Szyba zespolona 1-komorowa (4-16-4);250;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szyba zespolona 2-komorowa (4-16-4-16-4);330;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szyba bezpieczna (hartowana);350;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szyba antywłamaniowa P4;390;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szyba dźwiękochłonna;330;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szyba ornamentowa;290;za sztukę;;
+Produkty;Szyby;Pakiety szybowe;Szkło zbrojone 6 mm;500;za sztukę;;
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Klamka okienna standardowa;79;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Klamka okienna z kluczem;79;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Klamka balkonowa (łopatka);150;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Klamka dwustronna balkonowa;150;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Zatrzask balkonowy (magnes);85;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Klamki i uchwyty;Uchwyt do drzwi przesuwnych;120;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Zasuwnica;120;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Nożyce okienne;250;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Zawiasy (komplet);150;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Narożnik;150;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Przedłużka;200;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Zaczepy;50;sztuka;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Ogranicznik otwarcia;190;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Okucia okienne;Blokada obrotu klamki;200;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Mechanizmy specjalne;Samozamykacz drzwiowy;499;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Mechanizmy specjalne;Siłownik okienny elektryczny;800;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Mechanizmy specjalne;System mikrowentylacji;45;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Mechanizmy specjalne;Nawiewnik okienny higrosterowany;250;zł;;Cena z montażem
+Produkty;Okucia i mechanizmy;Mechanizmy specjalne;Nawiewnik ciśnieniowy;350;zł;;Cena z montażem
+Produkty;Uszczelnianie;Wymiana uszczelek;Uszczelka w ramie okiennej;19;zł/metr bieżący;;
+Produkty;Uszczelnianie;Wymiana uszczelek;Uszczelka przylgowa;19;zł/metr bieżący;;
+Usługi;Uszczelnianie;Wymiana uszczelek;Uszczelka szczotkowa;150;zł/metr bieżący;;
+Usługi;Uszczelnianie;Wymiana uszczelek;Kompletna wymiana uszczelek - okno standardowe;320;zł;;Cena z montażem
+Usługi;Uszczelnianie;Wymiana uszczelek;Kompletna wymiana uszczelek - okno drewniane;550;zł;;Cena z montażem
+Usługi;Uszczelnianie;Wymiana uszczelek;Kompletna wymiana uszczelek - drzwi wewnętrzne;200;zł;;Cena z montażem
+Usługi;Uszczelnianie;Wymiana uszczelek;Kompletna wymiana uszczelek - drzwi zewnętrzne;200;zł;;Cena z montażem
+Usługi;Uszczelnianie;Dodatkowe uszczelnianie;Montaż dodatkowych uszczelek;19;zł/metr bieżący;;
+Usługi;Uszczelnianie;Dodatkowe uszczelnianie;Uszczelnienie silikonem;20;zł/metr bieżący;;
+Usługi;Uszczelnianie;Dodatkowe uszczelnianie;Uszczelnienie pianką montażową;49;zł/metr bieżący;;
+Usługi;Uszczelnianie;Dodatkowe uszczelnianie;Izolacja termiczna ościeżnicy;300;zł;;
+Usługi;Konserwacja;Konserwacja;Czyszczenie i smarowanie okuć;90;zł;;
+Usługi;Konserwacja;Konserwacja;Konserwacja bez zdejmowania skrzydła;45;zł;;
+Usługi;Konserwacja;Konserwacja;Konserwacja ze zdjęciem skrzydła;99;zł;;
+Usługi;Konserwacja;Konserwacja;Smarowanie okuć (komplet);45;zł;;
+Usługi;Konserwacja;Konserwacja;Konserwacja okien drewnianych (czyszczenie + impregnacja);90;zł;;
+Usługi;Konserwacja;Konserwacja;Pakiet konserwacyjny roczny (2 wizyty);300;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi wewnętrzne pojedyncze;350;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi wewnętrzne dwuskrzydłowe;700;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi wewnętrzne szklane;900;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi zewnętrzne (wejściowe);950;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi przesuwne;1200;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Drzwi składane (harmonijkowe);320;zł;;
+Usługi;Montaż drzwi;Montaż drzwi;Transport i wniesienie drzwi;250;zł;;Wliczone w cenę przy zamówieniu
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Przeciwpożarowe EI30 (jednoskrzydłowe);1200;zł;;Cena za montaż
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Przeciwpożarowe EI60 (jednoskrzydłowe);1200;zł;;Cena za montaż
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Przeciwpożarowe EI120 (jednoskrzydłowe);1200;zł;;Cena za montaż
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Akustyczne 32-37 dB;1200;zł;Pomiar;Cena za montaż. Pomiar +200 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Akustyczne 38-45 dB;1200;zł;Pomiar;Cena za montaż. Pomiar +200 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Akustyczne 46-55 dB;1200;zł;Pomiar;Cena za montaż. Pomiar +300 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Techniczne Do pomieszczeń czystych;1200;zł;Pomiar, Uruchomienie, Certyfiikacja;Cena za montaż. Uruchomienie +200 zł, Certyfikacja +300 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Techniczne Chłodnicze;1200;zł;Pomiar, Uruchomienie, Certyfiikacja;Cena za montaż. Uruchomienie +300 zł, Certyfikacja +400 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Techniczne RTG;2500;zł;Pomiar, Certyfiikacja;Cena za montaż. Certyfikacja +500 zł
+Usługi;Montaż drzwi;Montaż drzwi specjalistycznych;Drzwi Techniczne Automatyczne;2500;zł;Uruchomienie, Certyfikacja;Cena za montaż. Uruchomienie +500 zł, Certyfikacja +300 zł
+Usługi;Demontaż drzwi;Demontaż drzwi;Ościeżnica drewniana;99;zł;;
+Usługi;Demontaż drzwi;Demontaż drzwi;Ościeżnica stalowa;150;zł;;
+Usługi;Demontaż drzwi;Demontaż drzwi;Ościeżnica regulowana;99;zł;;
+Usługi;Demontaż drzwi;Demontaż drzwi;Utylizacja starych drzwi;100;zł;;
+Usługi;Montaż drzwi;Prace dodatkowe przy montażu;Powiększenie otworu do 5 cm (cegła);500;zł;Dostępne rabaty za ilość;
+Usługi;Montaż drzwi;Prace dodatkowe przy montażu;Powiększenie otworu do 5 cm (beton);900;zł;Dostępne rabaty za ilość;
+Usługi;Montaż drzwi;Prace dodatkowe przy montażu;Wykonanie otworu pod wizjer;55;zł;Dostępne rabaty za ilość;
+Usługi;Montaż drzwi;Prace dodatkowe przy montażu;Montaż progu;150;zł;Dostępne rabaty za ilość;
+Produkty;Moskitiery;Moskitiery okienne;Ramkowa standardowa;120;zł;;
+Produkty;Moskitiery;Moskitiery okienne;Ramkowa wzmocniona;130;zł;;
+Produkty;Moskitiery;Moskitiery okienne;Rolowana;800;zł;;
+Produkty;Moskitiery;Moskitiery okienne;Plisowana;1200;zł;;
+Produkty;Moskitiery;Moskitiery okienne;Przesuwna;2500;zł;;
+Produkty;Moskitiery;Moskitiery drzwiowe;Otwierana na zawiasach;850;zł;;
+Produkty;Moskitiery;Moskitiery drzwiowe;Przesuwna;2200;zł;;
+Produkty;Moskitiery;Moskitiery drzwiowe;Balkonowa otwierana;850;zł;;
+Produkty;Moskitiery;Moskitiery drzwiowe;Magnetyczna;870;zł;;
+Produkty;Moskitiery;Moskitiery drzwiowe;Rolowana drzwiowa;850;zł;;
+Produkty;Moskitiery;Elementy dodatkowe;Profil aluminiowy dodatkowy;39;zł/metr bieżący;;
+Produkty;Moskitiery;Elementy dodatkowe;Siatka z włókna szklanego;120;zł/metr bieżący;;
+Produkty;Moskitiery;Elementy dodatkowe;Mocowania magnetyczne (komplet);99;zł;;
+Produkty;Moskitiery;Elementy dodatkowe;Szczotka uszczelniająca;19;zł/metr bieżący;;
+Produkty;Rolety i żaluzje;Rolety zewnętrzne;Roleta nadstawna;450;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Rolety zewnętrzne;Roleta podtynkowa;550;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Rolety zewnętrzne;Roleta nakładana;380;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Rolety zewnętrzne;Roleta antywłamaniowa;990;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Rolety zewnętrzne;Automatyzacja rolety;600;zł;;
+Produkty;Rolety i żaluzje;Żaluzje;Żaluzje aluminiowe 25mm;85;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Żaluzje;Żaluzje drewniane 25mm;185;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Żaluzje;Żaluzje drewniane 50mm;265;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Żaluzje;Verticale (pionowe);125;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Żaluzje;Plisy okienne;165;zł/m²;;Cena orientacyjna
+Produkty;Rolety i żaluzje;Serwis rolet i żaluzji;Wymiana taśmy rolety;85;zł;;
+Produkty;Rolety i żaluzje;Serwis rolet i żaluzji;Wymiana sznurka żaluzji;100;zł;;
+Produkty;Rolety i żaluzje;Serwis rolet i żaluzji;Naprawa mechanizmu rolety;100;zł;;
+Produkty;Rolety i żaluzje;Serwis rolet i żaluzji;Wymiana silnika elektrycznego;600;zł;;
+Produkty;Rolety i żaluzje;Serwis rolet i żaluzji;Regulacja prowadnic;65;zł;;
+Produkty;Okna - sprzedaż z montażem;Okna PCV;Okno jednoskrzydłowe;699;zł/m²;;Cena orientacyjna
+Produkty;Okna - sprzedaż z montażem;Okna PCV;Okno dwuskrzydłowe;699;zł/m²;;Cena orientacyjna
+Produkty;Okna - sprzedaż z montażem;Okna PCV;Okno trójdzielne;699;zł/m²;;Cena orientacyjna
+Produkty;Okna - sprzedaż z montażem;Okna PCV;Okno balkonowe;699;zł/m²;;Cena orientacyjna
+Produkty;Okna - sprzedaż z montażem;Okna PCV;Okno łukowe/nietypowe;;;;Wycena indywidualna
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Laminowanie jednostronne;110;zł/m²;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Laminowanie dwustronne;220;zł/m²;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Laminowanie dwustronne (różne kolory);240;zł/m²;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Szyba 3-szybowa;99;zł/m²;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Szyba antywłamaniowa;200;zł/m²;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Ciepła ramka;25;zł/metr bieżący;;Dopłata
+Produkty;Okna - sprzedaż z montażem;Opcje dodatkowe;Nawiewnik w ramie;150;zł/szt;;Dopłata
+Usługi;Usługi dodatkowe;Usługi specjalne;Zmiana funkcji okna (z rozwiernej na uchylno-rozwierną);500;zł;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Montaż parapetu wewnętrznego;87;zł;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Montaż parapetu zewnętrznego;87;zł;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Odblokowanie zatrzaśniętego okna;250;zł;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Odblokowanie drzwi balkonowych;250;zł;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Awaryjne otwarcie (szybki dojazd, również poza godzinami pracy);299;zl;;
+Usługi;Usługi dodatkowe;Usługi specjalne;Montaż klapki dla zwierząt;250;zł;;
+Usługi;Usługi dodatkowe;Diagnostyka i doradztwo;Przegląd techniczny okien (do 5 sztuk);250;zł;;
+Usługi;Usługi dodatkowe;Diagnostyka i doradztwo;Przegląd techniczny (powyżej 5 sztuk);300;zł;;
+Usługi;Usługi dodatkowe;Diagnostyka i doradztwo;Ekspertyza techniczna;200;zł;;
+Usługi;Usługi dodatkowe;Diagnostyka i doradztwo;Doradztwo techniczne;100;;;GRATIS
+Usługi;Usługi dodatkowe;Diagnostyka i doradztwo;Pomiar okien do wymiany;50;;;GRATIS
+Pakiety serwisowe;Pakiety serwisowe;Dla klientów indywidualnych;Pakiet BASIC;149;zł;;Przegląd + regulacja do 5 okien
+Pakiety serwisowe;Pakiety serwisowe;Dla klientów indywidualnych;Pakiet STANDARD;249;zł;;Przegląd + regulacja + konserwacja do 8 okien
+Pakiety serwisowe;Pakiety serwisowe;Dla klientów indywidualnych;Pakiet PREMIUM;399;zł;;Kompleksowy serwis do 12 okien + priorytet
+Pakiety serwisowe;Pakiety serwisowe;Dla firm i wspólnot;Pakiet BIZNES;299;zł;;Miesięczny abonament serwisowy
+Pakiety serwisowe;Pakiety serwisowe;Dla firm i wspólnot;Pakiet WSPÓLNOTA;Wycena indywidualna;;;Wycena indywidualna, Roczna obsługa budynku
+Pakiety serwisowe;Pakiety serwisowe;Dla firm i wspólnot;Pakiet KOMPLEKS;Wycena indywidualna;;;Wycena indywidualna, Roczna obsługa budynku

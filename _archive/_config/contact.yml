@@ -1,0 +1,105 @@
+# CENTRALIZED CONTACT INFORMATION
+# This file contains all contact information for headless CMS integration
+
+# Main company contact
+company:
+  name: "Regulujemy.pl"
+  legal_name: "Serwis Okien Regulujemy.pl Sp. z o.o."
+  tagline: "Profesjonalnie od 15 lat"
+  
+# Primary contact information
+primary:
+  phone: "+48 22 123 45 67"
+  phone_display: "22 123 45 67"
+  phone_emergency: "+48 22 123 45 99"
+  email: "kontakt@regulujemy.pl"
+  website: "https://regulujemy.pl"
+
+# Department-specific contacts
+departments:
+  main:
+    phone: "+48 22 123 45 67"
+    email: "kontakt@regulujemy.pl"
+    hours: "Pon-Pt 7:00-20:00, Sob 8:00-16:00"
+    
+  emergency:
+    phone: "+48 22 123 45 99"
+    display: "AWARIE 24/7"
+    hours: "24/7"
+    
+  business:
+    phone: "+48 22 123 45 67"
+    extension: "ext. B2B"
+    email: "biznes@regulujemy.pl"
+    hours: "Pon-Pt 7:00-19:00"
+    
+  technical:
+    phone: "+48 22 123 45 67"
+    extension: "ext. TECH"
+    email: "tech@regulujemy.pl"
+    hours: "Pon-Pt 8:00-17:00"
+
+# Specialized services
+services:
+  warranty:
+    phone: "+48 22 123 45 67"
+    extension: "ext. GW"
+    email: "gwarancja@regulujemy.pl"
+    
+  consultations:
+    phone: "+48 22 123 45 67"
+    extension: "ext. INFO"
+    email: "porady@regulujemy.pl"
+
+# Physical locations
+locations:
+  headquarters:
+    address: "ul. Serwisowa 123, 00-001 Warszawa"
+    phone: "+48 22 123 45 67"
+    hours: "Pon-Pt 8:00-17:00, Sob 9:00-14:00"
+    
+  showroom:
+    address: "ul. Pokazowa 123, Warszawa (Mokotów)"
+    phone: "+48 22 123 45 67"
+    hours: "Pon-Pt 8:00-18:00, Sob 9:00-15:00"
+    features: "Bezpłatny parking"
+
+# District-specific extensions (for Warsaw)
+warsaw_districts:
+  mokotow: "ext. MOK"
+  ursynow: "ext. URS"
+  wilanow: "ext. WIL"
+  bemowo: "ext. BEM"
+  bielany: "ext. BIE"
+  wola: "ext. WOL"
+  srodmiescie: "ext. VIP"
+  ochota: "ext. OCH"
+  praga_polnoc: "ext. PPN"
+  praga_poludnie: "ext. PPS"
+  targowek: "ext. TAR"
+  bialoleka: "ext. BIA"
+  zoliborz: "ext. ZOL"
+  rembertow: "ext. REM"
+  wawer: "ext. WAW"
+  ursus: "ext. URS"
+  wlochy: "ext. WLO"
+
+# Social media & online presence
+online:
+  facebook: "https://facebook.com/regulujemy.pl"
+  google_business: "https://g.page/regulujemy-pl"
+  linkedin: "https://linkedin.com/company/regulujemy-pl"
+  
+# CTA Templates for consistent messaging
+cta_templates:
+  primary: "ZADZWOŃ: {{primary.phone_display}}"
+  emergency: "PILNY WYJAZD: {{emergency.phone}}"
+  business: "BIZNES: {{business.phone}} {{business.extension}}"
+  consultation: "PORADY: {{technical.phone}} {{technical.extension}}"
+
+# Standard working hours
+standard_hours:
+  weekdays: "Pon-Pt 7:00-20:00"
+  saturday: "Sob 8:00-16:00"
+  sunday: "Niedz - tylko awarie"
+  emergency: "24/7"

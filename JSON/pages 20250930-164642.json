@@ -1,0 +1,90 @@
+[
+	{
+		"slug": "o-nas",
+		"status": "published",
+		"title": "O nas",
+		"title_en": "About Us",
+		"content": "<h1>O firmie Regulujemy.pl</h1><p>Jesteśmy profesjonalną firmą specjalizującą się w serwisie okien w Warszawie.</p>",
+		"published_at": "2025-01-20T10:00:00.000Z"
+	},
+	{
+		"slug": "gwarancja",
+		"status": "published",
+		"title": "Gwarancja",
+		"title_en": "Warranty",
+		"content": "<h1>Gwarancja na usługi</h1><p>Zapewniamy pełną gwarancję na wszystkie nasze usługi serwisowe.</p>",
+		"published_at": "2025-01-20T10:00:00.000Z"
+	},
+	{
+		"slug": "o-nas",
+		"status": "published",
+		"title": "O nas",
+		"title_en": "About Us",
+		"content": "<h1>O naszej firmie</h1><p>Regulujemy.pl to firma specjalizująca się w profesjonalnej regulacji, naprawie i montażu okien oraz drzwi. Działamy na terenie całej Warszawy i okolic, oferując usługi najwyższej jakości.</p><h2>Nasza misja</h2><p>Zapewniamy naszym klientom profesjonalne usługi serwisowe, które gwarantują długotrwałą i bezawaryjną pracę okien i drzwi.</p>",
+		"published_at": null
+	},
+	{
+		"slug": "gwarancja",
+		"status": "published",
+		"title": "Gwarancja",
+		"title_en": "Warranty",
+		"content": "<h1>Gwarancja i reklamacje</h1><p>Udzielamy gwarancji na wszystkie wykonywane przez nas usługi.</p><h2>Zakres gwarancji</h2><ul><li>Regulacja okien - 6 miesięcy</li><li>Naprawa okucia - 12 miesięcy</li><li>Wymiana szyb - 24 miesiące</li><li>Montaż okien - 24 miesiące</li></ul><h2>Jak złożyć reklamację?</h2><p>W przypadku problemu skontaktuj się z nami telefonicznie lub przez email. Nasz zespół oceni sytuację i podejmie odpowiednie działania naprawcze.</p>",
+		"published_at": null
+	},
+	{
+		"slug": "polityka-prywatnosci",
+		"status": "published",
+		"title": "Polityka prywatności",
+		"title_en": "Privacy Policy",
+		"content": "<h1>Polityka prywatności</h1><p>Niniejsza Polityka Prywatności określa zasady przetwarzania danych osobowych przez Regulujemy.pl.</p><h2>Administrator danych</h2><p>Administratorem danych osobowych jest firma Regulujemy.pl z siedzibą w Warszawie.</p><h2>Zakres zbieranych danych</h2><p>Zbieramy następujące dane osobowe:</p><ul><li>Imię i nazwisko</li><li>Adres email</li><li>Numer telefonu</li><li>Adres zamieszkania/usługi</li></ul><h2>Cel przetwarzania danych</h2><p>Przetwarzamy dane w celu świadczenia usług, kontaktu z klientem oraz wypełnienia obowiązków prawnych.</p>",
+		"published_at": null
+	},
+	{
+		"slug": "regulamin",
+		"status": "published",
+		"title": "Regulamin serwisu",
+		"title_en": "Terms of Service",
+		"content": "<h1>Regulamin serwisu Regulujemy.pl</h1>\n\n<h2>§ 1. Postanowienia ogólne</h2>\n<ol>\n<li>Niniejszy regulamin określa zasady korzystania z serwisu internetowego Regulujemy.pl</li>\n<li>Administratorem serwisu jest firma Regulujemy.pl</li>\n<li>Korzystanie z serwisu oznacza akceptację postanowień niniejszego regulaminu</li>\n</ol>\n\n<h2>§ 2. Zakres usług</h2>\n<ol>\n<li>Serwis oferuje informacje o usługach okiennych</li>\n<li>Możliwość kontaktu i składania zapytań</li>\n<li>Prezentacja produktów i cenników</li>\n</ol>\n\n<h2>§ 3. Warunki korzystania</h2>\n<ol>\n<li>Zakazane jest wykorzystywanie serwisu niezgodnie z prawem</li>\n<li>Zakazane jest zakłócanie funkcjonowania serwisu</li>\n<li>Użytkownik zobowiązuje się do podawania prawdziwych danych</li>\n</ol>\n\n<h2>§ 4. Odpowiedzialność</h2>\n<ol>\n<li>Administrator dołożył wszelkich starań, aby informacje były aktualne</li>\n<li>Administrator nie ponosi odpowiedzialności za skutki korzystania z informacji</li>\n<li>Ostateczne warunki usług określane są w umowie</li>\n</ol>\n\n<h2>§ 5. Postanowienia końcowe</h2>\n<ol>\n<li>Administrator zastrzega sobie prawo do zmian regulaminu</li>\n<li>Zmiany wchodzą w życie po opublikowaniu na stronie</li>\n<li>W sprawach nieuregulowanych stosuje się przepisy prawa polskiego</li>\n</ol>",
+		"published_at": "2025-01-25T00:00:00.000Z"
+	},
+	{
+		"slug": "polityka-cookies",
+		"status": "published",
+		"title": "Polityka cookies",
+		"title_en": "Cookie Policy",
+		"content": "<h1>Polityka cookies - Regulujemy.pl</h1>\n\n<h2>Co to są pliki cookies?</h2>\n<p>Pliki cookies to małe pliki tekstowe, które są zapisywane na Twoim urządzeniu podczas odwiedzania strony internetowej. Służą one do zapamiętywania preferencji użytkownika i poprawy funkcjonalności witryny.</p>\n\n<h2>Jakie cookies używamy?</h2>\n\n<h3>Cookies niezbędne</h3>\n<ul>\n<li><strong>Cookies sesji</strong> - umożliwiają prawidłowe funkcjonowanie strony</li>\n<li><strong>Cookies bezpieczeństwa</strong> - chronią przed atakami</li>\n<li><strong>Cookies formularzy</strong> - zapamiętują dane w formularzach</li>\n</ul>\n\n<h3>Cookies analityczne</h3>\n<ul>\n<li><strong>Google Analytics</strong> - analiza ruchu na stronie</li>\n<li><strong>Metryki wydajności</strong> - optymalizacja ładowania strony</li>\n</ul>\n\n<h3>Cookies marketingowe</h3>\n<ul>\n<li><strong>Facebook Pixel</strong> - remarketing w social media</li>\n<li><strong>Google Ads</strong> - personalizacja reklam</li>\n</ul>\n\n<h2>Jak zarządzać cookies?</h2>\n<p>Możesz kontrolować i usuwać pliki cookies w ustawieniach swojej przeglądarki:</p>\n<ul>\n<li><strong>Chrome:</strong> Ustawienia > Prywatność i bezpieczeństwo > Pliki cookie</li>\n<li><strong>Firefox:</strong> Preferencje > Prywatność i bezpieczeństwo</li>\n<li><strong>Safari:</strong> Preferencje > Prywatność</li>\n<li><strong>Edge:</strong> Ustawienia > Prywatność, wyszukiwanie i usługi</li>\n</ul>\n\n<h2>Zgodna na cookies</h2>\n<p>Korzystając z naszej strony, wyrażasz zgodę na używanie plików cookies zgodnie z niniejszą polityką. Zgodę możesz cofnąć w dowolnym momencie, zmieniając ustawienia przeglądarki.</p>\n\n<h2>Kontakt</h2>\n<p>W razie pytań dotyczących polityki cookies, skontaktuj się z nami:</p>\n<p>Email: <a href=\"mailto:kontakt@regulujemy.pl\">kontakt@regulujemy.pl</a><br>\nTelefon: <a href=\"tel:+48123456789\">+48 123 456 789</a></p>\n\n<p><small>Ostatnia aktualizacja: 25 stycznia 2025</small></p>",
+		"published_at": "2025-01-25T00:00:00.000Z"
+	},
+	{
+		"slug": "rodo",
+		"status": "published",
+		"title": "Informacje RODO",
+		"title_en": "GDPR Information",
+		"content": "<h1>Informacje RODO - Regulujemy.pl</h1>\n\n<h2>Administrator danych osobowych</h2>\n<p>Administratorem Twoich danych osobowych jest:</p>\n<p><strong>Regulujemy.pl</strong><br>\nul. Przykładowa 123, 00-001 Warszawa<br>\nTelefon: <a href=\"tel:+48123456789\">+48 123 456 789</a><br>\nEmail: <a href=\"mailto:kontakt@regulujemy.pl\">kontakt@regulujemy.pl</a></p>\n\n<h2>Cele i podstawy prawne przetwarzania danych</h2>\n\n<h3>1. Realizacja usług (art. 6 ust. 1 lit. b RODO)</h3>\n<ul>\n<li>Kontakt i komunikacja z klientami</li>\n<li>Realizacja zamówień i świadczenie usług</li>\n<li>Rozliczenia i faktury</li>\n</ul>\n\n<h3>2. Prawnie uzasadniony interes (art. 6 ust. 1 lit. f RODO)</h3>\n<ul>\n<li>Marketing własny i analiza potrzeb klientów</li>\n<li>Obrona przed roszczeniami</li>\n<li>Zapewnienie bezpieczeństwa IT</li>\n</ul>\n\n<h3>3. Zgoda (art. 6 ust. 1 lit. a RODO)</h3>\n<ul>\n<li>Newsletter i komunikacja marketingowa</li>\n<li>Cookies analityczne i marketingowe</li>\n<li>Udostępnianie opinii na stronie</li>\n</ul>\n\n<h2>Kategorie danych osobowych</h2>\n<p>Przetwarzamy następujące kategorie danych:</p>\n<ul>\n<li><strong>Dane kontaktowe:</strong> imię, nazwisko, telefon, email, adres</li>\n<li><strong>Dane techniczne:</strong> adres IP, informacje o urządzeniu, logi serwera</li>\n<li><strong>Dane usługowe:</strong> szczegóły zamówień, historia komunikacji</li>\n<li><strong>Dane marketingowe:</strong> preferencje, zgody, zachowania na stronie</li>\n</ul>\n\n<h2>Odbiorcy danych</h2>\n<p>Twoje dane mogą być przekazywane:</p>\n<ul>\n<li>Dostawcom usług IT (hosting, analytics)</li>\n<li>Firmom księgowym i prawnym</li>\n<li>Operatorom płatności</li>\n<li>Organom państwowym na żądanie prawne</li>\n</ul>\n\n<h2>Okres przechowywania danych</h2>\n<ul>\n<li><strong>Dane klientów:</strong> przez czas trwania umowy + 3 lata</li>\n<li><strong>Faktury i dokumenty:</strong> 5 lat od końca roku podatkowego</li>\n<li><strong>Dane marketingowe:</strong> do momentu cofnięcia zgody</li>\n<li><strong>Logi serwera:</strong> do 12 miesięcy</li>\n</ul>\n\n<h2>Twoje prawa</h2>\n<p>Przysługują Ci następujące prawa:</p>\n\n<h3>📝 Prawo dostępu</h3>\n<p>Możesz uzyskać informację o przetwarzanych danych</p>\n\n<h3>✏️ Prawo sprostowania</h3>\n<p>Możesz żądać poprawienia nieprawidłowych danych</p>\n\n<h3>🗑️ Prawo do usunięcia</h3>\n<p>Możesz żądać usunięcia danych w określonych przypadkach</p>\n\n<h3>⏸️ Prawo do ograniczenia</h3>\n<p>Możesz żądać ograniczenia przetwarzania</p>\n\n<h3>📦 Prawo do przenośności</h3>\n<p>Możesz otrzymać swoje dane w formacie strukturyzowanym</p>\n\n<h3>❌ Prawo sprzeciwu</h3>\n<p>Możesz wyrazić sprzeciw wobec przetwarzania danych</p>\n\n<h3>🚫 Cofnięcie zgody</h3>\n<p>Możesz cofnąć zgodę w dowolnym momencie</p>\n\n<h2>Jak skorzystać z praw?</h2>\n<p>Aby skorzystać ze swoich praw, skontaktuj się z nami:</p>\n<p>Email: <a href=\"mailto:rodo@regulujemy.pl\">rodo@regulujemy.pl</a><br>\nTelefon: <a href=\"tel:+48123456789\">+48 123 456 789</a><br>\nAdres: ul. Przykładowa 123, 00-001 Warszawa</p>\n\n<h2>Prawo do skargi</h2>\n<p>Jeśli uważasz, że przetwarzamy Twoje dane niezgodnie z prawem, możesz złożyć skargę do:</p>\n<p><strong>Urząd Ochrony Danych Osobowych</strong><br>\nul. Stawki 2, 00-193 Warszawa<br>\nTelefon: 22 531 03 00<br>\nWebsite: <a href=\"https://uodo.gov.pl\" target=\"_blank\">uodo.gov.pl</a></p>\n\n<p><small>Ostatnia aktualizacja: 25 stycznia 2025</small></p>",
+		"published_at": "2025-01-25T00:00:00.000Z"
+	},
+	{
+		"slug": "warunki-wspolpracy",
+		"status": "published",
+		"title": "Warunki współpracy B2B",
+		"title_en": "B2B Cooperation Terms",
+		"content": "<h1>Warunki współpracy B2B - Regulujemy.pl</h1>\n\n<p class=\"lead\">Oferujemy profesjonalne usługi okiennej dla firm, wspólnot mieszkaniowych, zarządców nieruchomości i deweloperów. Nasze doświadczenie i elastyczność pozwalają na realizację projektów każdej wielkości.</p>\n\n<h2>🏢 Dla kogo oferujemy usługi B2B?</h2>\n\n<div class=\"row\">\n<div class=\"col-md-6\">\n<h3>Wspólnoty mieszkaniowe</h3>\n<ul>\n<li>Serwis okien w budynkach wielorodzinnych</li>\n<li>Kompleksowe przeglądy techniczne</li>\n<li>Planowanie remontów i modernizacji</li>\n<li>Obsługa wieloletnich umów serwisowych</li>\n</ul>\n</div>\n\n<div class=\"col-md-6\">\n<h3>Zarządcy nieruchomości</h3>\n<ul>\n<li>Bieżące utrzymanie okien w portfelu</li>\n<li>Szybki serwis awaryjny 24/7</li>\n<li>Regularne przeglądy i konserwacja</li>\n<li>Dokumentacja techniczna wszystkich działań</li>\n</ul>\n</div>\n</div>\n\n<div class=\"row\">\n<div class=\"col-md-6\">\n<h3>Deweloperzy</h3>\n<ul>\n<li>Serwis gwarancyjny nowych inwestycji</li>\n<li>Regulacja okien przed odbiorem mieszkań</li>\n<li>Wsparcie techniczne na etapie budowy</li>\n<li>Szkolenia dla zespołów sprzedażowych</li>\n</ul>\n</div>\n\n<div class=\"col-md-6\">\n<h3>Firmy i biura</h3>\n<ul>\n<li>Serwis okien w obiektach komercyjnych</li>\n<li>Modernizacja systemów okiennych</li>\n<li>Doradztwo energooszczędne</li>\n<li>Elastyczne terminy dostosowane do pracy biura</li>\n</ul>\n</div>\n</div>\n\n<h2>💰 Cennik usług B2B</h2>\n\n<table class=\"table table-striped\">\n<thead>\n<tr>\n<th>Usługa</th>\n<th>Cena netto</th>\n<th>Min. ilość</th>\n<th>Rabat przy większych ilościach</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Regulacja okna PCV</td>\n<td>45 zł</td>\n<td>10 okien</td>\n<td>-15% powyżej 50 okien</td>\n</tr>\n<tr>\n<td>Wymiana klamki</td>\n<td>65 zł</td>\n<td>5 sztuk</td>\n<td>-10% powyżej 20 sztuk</td>\n</tr>\n<tr>\n<td>Wymiana uszczelek - mb</td>\n<td>18 zł</td>\n<td>50 mb</td>\n<td>-20% powyżej 200 mb</td>\n</tr>\n<tr>\n<td>Przegląd techniczny - okno</td>\n<td>25 zł</td>\n<td>20 okien</td>\n<td>-25% powyżej 100 okien</td>\n</tr>\n<tr>\n<td>Serwis awaryjny 24/7</td>\n<td>150 zł/h</td>\n<td>-</td>\n<td>Ryczałt miesięczny dostępny</td>\n</tr>\n</tbody>\n</table>\n\n<div class=\"alert alert-info\">\n<strong>💡 Uwaga:</strong> Ceny nie zawierają VAT. Dla stałych klientów oferujemy dodatkowe rabaty i umowy ryczałtowe.\n</div>\n\n<h2>📋 Warunki współpracy</h2>\n\n<h3>Płatności</h3>\n<ul>\n<li><strong>Termin płatności:</strong> 14 dni od daty wystawienia faktury</li>\n<li><strong>Forma płatności:</strong> przelew bankowy lub BLIK</li>\n<li><strong>Faktury:</strong> wystawiamy faktury VAT zgodnie z obowiązującymi przepisami</li>\n<li><strong>Zaliczki:</strong> przy projektach powyżej 10 000 zł wymagana zaliczka 30%</li>\n</ul>\n\n<h3>Realizacja usług</h3>\n<ul>\n<li><strong>Czas reakcji:</strong> maksymalnie 24h na wstępną wycenę</li>\n<li><strong>Wycena:</strong> bezpłatna dla projektów powyżej 20 okien</li>\n<li><strong>Harmonogram:</strong> ustalany indywidualnie z uwzględnieniem Waszych potrzeb</li>\n<li><strong>Zespół:</strong> doświadczeni technicy z uprawnieniami</li>\n</ul>\n\n<h3>Gwarancja i jakość</h3>\n<ul>\n<li><strong>Gwarancja usług:</strong> 12 miesięcy na wykonane prace</li>\n<li><strong>Gwarancja części:</strong> zgodnie z warunkami producenta (zwykle 2-5 lat)</li>\n<li><strong>Ubezpieczenie:</strong> posiadamy pełne ubezpieczenie OC działalności</li>\n<li><strong>Certyfikaty:</strong> autoryzacja producentów VEKA, REHAU, ROTO</li>\n</ul>\n\n<h2>📞 Procedura składania zamówień</h2>\n\n<ol>\n<li><strong>Kontakt wstępny</strong> - opisz swoje potrzeby telefonicznie lub przez email</li>\n<li><strong>Wizja lokalna</strong> - bezpłatny przyjazd i ocena zakresu prac</li>\n<li><strong>Wycena szczegółowa</strong> - przygotowanie oferty w ciągu 48h</li>\n<li><strong>Podpisanie umowy</strong> - ustalenie terminów i warunków</li>\n<li><strong>Realizacja</strong> - wykonanie prac zgodnie z harmonogramem</li>\n<li><strong>Odbiór i dokumentacja</strong> - protocol odbioru i dokumenty gwarancyjne</li>\n</ol>\n\n<h2>📈 Pakiety usług dla stałych klientów</h2>\n\n<div class=\"row\">\n<div class=\"col-md-4\">\n<div class=\"card\">\n<div class=\"card-header bg-primary text-white\">\n<h4>BASIC</h4>\n<p class=\"mb-0\">Do 50 okien</p>\n</div>\n<div class=\"card-body\">\n<ul>\n<li>Przeglądy 2x w roku</li>\n<li>Rabat 10% na części</li>\n<li>Priorytetowe terminy</li>\n<li>Dokumentacja techniczna</li>\n</ul>\n<strong>Od 2000 zł/rok</strong>\n</div>\n</div>\n</div>\n\n<div class=\"col-md-4\">\n<div class=\"card\">\n<div class=\"card-header bg-success text-white\">\n<h4>STANDARD</h4>\n<p class=\"mb-0\">51-200 okien</p>\n</div>\n<div class=\"card-body\">\n<ul>\n<li>Przeglądy 3x w roku</li>\n<li>Rabat 15% na części</li>\n<li>Serwis awaryjny 24/7</li>\n<li>Dedykowany opiekun</li>\n</ul>\n<strong>Od 5000 zł/rok</strong>\n</div>\n</div>\n</div>\n\n<div class=\"col-md-4\">\n<div class=\"card\">\n<div class=\"card-header bg-warning text-dark\">\n<h4>PREMIUM</h4>\n<p class=\"mb-0\">Powyżej 200 okien</p>\n</div>\n<div class=\"card-body\">\n<ul>\n<li>Przeglądy 4x w roku</li>\n<li>Rabat 25% na części</li>\n<li>Pełny serwis 24/7</li>\n<li>Indywidualne warunki</li>\n</ul>\n<strong>Wycena indywidualna</strong>\n</div>\n</div>\n</div>\n</div>\n\n<h2>🤝 Dlaczego warto z nami współpracować?</h2>\n\n<div class=\"row\">\n<div class=\"col-md-6\">\n<h3>✅ Doświadczenie</h3>\n<p>Ponad 15 lat na rynku, tysiące zadowolonych klientów B2B</p>\n\n<h3>🚀 Szybkość</h3>\n<p>Reakcja w 24h, realizacja zgodnie z harmonogramem</p>\n\n<h3>💼 Profesjonalizm</h3>\n<p>Certyfikowani technicy, nowoczesne narzędzia, pełna dokumentacja</p>\n</div>\n\n<div class=\"col-md-6\">\n<h3>💰 Konkurencyjne ceny</h3>\n<p>Atrakcyjne rabaty hurtowe, elastyczne formy płatności</p>\n\n<h3>🛡️ Gwarancja jakości</h3>\n<p>12 miesięcy gwarancji na usługi, ubezpieczenie OC</p>\n\n<h3>📱 Łatwy kontakt</h3>\n<p>Dedykowany opiekun, stałe numery kontaktowe</p>\n</div>\n</div>\n\n<h2>📞 Kontakt B2B</h2>\n\n<div class=\"contact-info\">\n<p><strong>Dział B2B:</strong></p>\n<p>📞 <strong>Telefon:</strong> <a href=\"tel:+48123456789\">+48 123 456 789</a> (wew. 2)<br>\n📧 <strong>Email:</strong> <a href=\"mailto:b2b@regulujemy.pl\">b2b@regulujemy.pl</a><br>\n📍 <strong>Adres:</strong> ul. Przykładowa 123, 00-001 Warszawa</p>\n\n<p><strong>Godziny pracy działu B2B:</strong><br>\nPoniedziałek - Piątek: 8:00 - 18:00<br>\nSobota: 9:00 - 14:00</p>\n\n<p><strong>Serwis awaryjny 24/7:</strong> <a href=\"tel:+48600123456\">+48 600 123 456</a></p>\n</div>\n\n<div class=\"alert alert-success\">\n<h4>🎯 Skontaktuj się z nami już dziś!</h4>\n<p class=\"mb-0\">Przygotujemy dla Ciebie indywidualną ofertę dostosowaną do potrzeb Twojej firmy lub wspólnoty mieszkaniowej. Pierwszy przegląd techniczny - GRATIS!</p>\n</div>\n\n<p><small>Ostatnia aktualizacja: 25 stycznia 2025</small></p>",
+		"published_at": "2025-01-25T00:00:00.000Z"
+	},
+	{
+		"slug": "home",
+		"status": "published",
+		"title": "Strona główna - Regulujemy.pl",
+		"title_en": "Homepage - Regulujemy.pl",
+		"content": "<h1>Witamy w Regulujemy.pl</h1>\n<p>Profesjonalna regulacja i naprawa okien w Warszawie. Ta treść pochodzi z systemu CMS!</p>\n<p>Specjalizujemy się w regulacji okien PCV, drewnianych i aluminiowych. Oferujemy r&oacute;wnież naprawy okuć, wymianę szyb i montaż nowych okien.</p>\n<h2>Nasze usługi:</h2>\n<ul>\n<li>Regulacja okien i drzwi balkonowych</li>\n<li>Naprawa i wymiana okuć</li>\n<li>Wymiana szyb i witryn</li>\n<li>Montaż nowych okien</li>\n<li>Serwis awaryjny 24/7</li>\n</ul>\n<p>&nbsp;</p>",
+		"published_at": "2025-08-24T12:23:19.947Z"
+	},
+	{
+		"slug": "uslugi",
+		"status": "published",
+		"title": "Usługi",
+		"title_en": "Services",
+		"content": "<h1>Blabla</h1>",
+		"published_at": "2025-08-26T10:00:00.000Z"
+	}
+]

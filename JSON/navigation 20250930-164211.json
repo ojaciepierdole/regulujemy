@@ -1,0 +1,74 @@
+[
+	{
+		"id": 2,
+		"label": "Usługi",
+		"label_en": "Services",
+		"sort_order": 2,
+		"status": "active",
+		"parent": null
+	},
+	{
+		"id": 4,
+		"label": "Strona główna",
+		"label_en": "Home",
+		"sort_order": 1,
+		"status": "active",
+		"parent": null
+	},
+	{
+		"id": 6,
+		"label": "Regulacja okien",
+		"label_en": "Window Adjustment",
+		"sort_order": 1,
+		"status": "active",
+		"parent": 2
+	},
+	{
+		"id": 7,
+		"label": "Naprawa okien",
+		"label_en": "Window Repair",
+		"sort_order": 2,
+		"status": "active",
+		"parent": 2
+	},
+	{
+		"id": 8,
+		"label": "Produkty",
+		"label_en": "Products",
+		"sort_order": 3,
+		"status": "active",
+		"parent": null
+	},
+	{
+		"id": 9,
+		"label": "Okna PCV",
+		"label_en": "PVC Windows",
+		"sort_order": 1,
+		"status": "active",
+		"parent": 8
+	},
+	{
+		"id": 10,
+		"label": "Drzwi",
+		"label_en": "Doors",
+		"sort_order": 2,
+		"status": "active",
+		"parent": 8
+	},
+	{
+		"id": 11,
+		"label": "O nas",
+		"label_en": "About",
+		"sort_order": 4,
+		"status": "active",
+		"parent": null
+	},
+	{
+		"id": 12,
+		"label": "Kontakt",
+		"label_en": "Contact",
+		"sort_order": 5,
+		"status": "active",
+		"parent": null
+	}
+]

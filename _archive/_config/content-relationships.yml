@@ -1,0 +1,225 @@
+# CONTENT RELATIONSHIP MAPPING FOR CMS MIGRATION
+# Defines all relationships between content pieces for headless CMS
+
+# Service Relationships
+service_relationships:
+  regulacja_okien:
+    related_services:
+      - uszczelnianie
+      - wymiana_czesci
+      - naprawa_okien
+    complementary_services:
+      - konserwacja_sezonowa
+      - diagnostyka_okien
+    location_specific: true
+    business_variants: true
+    
+  naprawa_okien:
+    related_services:
+      - regulacja_okien
+      - wymiana_czesci
+      - wymiana_szyb
+    emergency_priority: true
+    warranty_services: true
+    
+  montaz_sprzedaz:
+    related_services:
+      - pomiary_wycena
+      - naprawa_okien
+      - regulacja_okien
+    product_dependencies:
+      - okna
+      - drzwi
+      - okucia
+    business_focus: true
+
+# Location-Service Matrix
+location_service_matrix:
+  warszawa:
+    all_districts: true
+    premium_services: true
+    emergency_24_7: true
+    specialized_teams: true
+    
+  inne_miasta:
+    selected_services: true
+    scheduled_visits: true
+    regional_pricing: true
+
+# Content Cross-References
+cross_references:
+  service_to_blog:
+    regulacja_podstawowa:
+      - "jak-sprawdzic-czy-okno-wymaga-regulacji"
+      - "kiedy-regulowac-okna"
+      - "test-okna-5-minut"
+    
+    naprawa_klamek:
+      - "dlaczego-okno-sie-zacina"
+      - "naprawa-klamek-przewodnik"
+    
+    uszczelnianie:
+      - "jak-przygotowac-mieszkanie-na-lato"
+      - "oszczedzanie-energii-okna"
+  
+  location_to_services:
+    mokotow:
+      featured: ["regulacja_podstawowa", "naprawa_okien", "montaz_okien"]
+      response_time: "20 minut"
+      team_specialization: "kamienice_i_apartamenty"
+      
+    ursynow:
+      featured: ["regulacja_okien", "uszczelnianie", "wymiana_czesci"]
+      response_time: "25 minut"
+      team_specialization: "wielkoplytowe_bloki"
+      
+    wilanow:
+      featured: ["montaz_premium", "automatyka_okienna", "okna_drewniane"]
+      response_time: "30 minut"
+      team_specialization: "domy_premium"
+
+# Product-Service Dependencies
+product_service_dependencies:
+  okna_pcv:
+    main_services: ["regulacja_pcv", "naprawa_pcv", "montaz_pcv"]
+    maintenance: ["uszczelnianie", "smarowanie_okuc"]
+    upgrades: ["wymiana_okuc", "izolacja_akustyczna"]
+    
+  okna_drewniane:
+    main_services: ["regulacja_drewniane", "konserwacja_drewna"]
+    specialized: ["renowacja_zabytki", "impregnacja"]
+    seasonal: ["przygotowanie_zima", "konserwacja_wiosna"]
+    
+  drzwi_balkonowe:
+    main_services: ["regulacja_drzwi", "wymiana_uszczelek"]
+    security: ["zamki_bezpieczne", "okucia_antywlamaniowe"]
+    comfort: ["automatyka", "progi_niskie"]
+
+# Business Segment Relationships
+business_segments:
+  residential:
+    primary_services: ["regulacja", "naprawa", "uszczelnianie"]
+    pricing: "standard"
+    response_time: "standardowy"
+    communication: "bezposrednia"
+    
+  commercial:
+    primary_services: ["umowy_serwisowe", "przeglądy", "awarie_24_7"]
+    pricing: "negocjowane"
+    response_time: "priorytetowy"
+    communication: "dedykowany_opiekun"
+    
+  institutional:
+    primary_services: ["przetargi", "certyfikowane", "dokumentacja"]
+    pricing: "przetargowe"
+    compliance: "wszystkie_normy"
+    reporting: "szczegółowe"
+
+# Seasonal Content Relationships
+seasonal_relationships:
+  spring:
+    services: ["przegłąd_wiosenny", "regulacja_po_zimie"]
+    blog_content: ["przygotowanie_na_lato", "konserwacja_wiosenna"]
+    promotions: ["pakiet_wiosenny"]
+    
+  summer:
+    services: ["montaz_moskitier", "automatyka_okna"]
+    blog_content: ["chłodzenie_mieszkania", "okna_latem"]
+    promotions: ["klimatyzacja_okna"]
+    
+  autumn:
+    services: ["uszczelnianie", "przygotowanie_zima"]
+    blog_content: ["oszczedzanie_energii", "izolacja_termiczna"]
+    promotions: ["pakiet_zimowy"]
+    
+  winter:
+    services: ["awarie_mrozowe", "regulacja_zimowa"]
+    blog_content: ["problemy_zimowe", "ogrzewanie_okna"]
+    promotions: ["serwis_zimowy"]
+
+# Pricing Relationship Model
+pricing_relationships:
+  base_services:
+    regulacja_podstawowa: 35
+    naprawa_klamki: 45
+    wymiana_uszczelki: 25
+    
+  location_modifiers:
+    warszawa: 1.0
+    okolice_warszawy: 1.1
+    inne_miasta: 1.2
+    
+  time_modifiers:
+    standard: 1.0
+    weekend: 1.25
+    evening: 1.15
+    emergency: 1.5
+    
+  volume_discounts:
+    single: 1.0
+    package_3: 0.9
+    package_5: 0.85
+    commercial: 0.8
+
+# Content Taxonomy
+taxonomy:
+  service_categories:
+    level_1: ["regulacja", "naprawa", "montaz", "biznes"]
+    level_2: ["podstawowa", "zaawansowana", "specjalistyczna"]
+    level_3: ["pcv", "drewniane", "aluminiowe"]
+    
+  location_categories:
+    level_1: ["warszawa", "inne-miasta"]
+    level_2: ["dzielnice", "regiony"]
+    level_3: ["osiedla", "ulice"]
+    
+  content_tags:
+    urgency: ["pilne", "standardowe", "planowane"]
+    difficulty: ["podstawowe", "średnie", "zaawansowane"]
+    audience: ["mieszkańcy", "firmy", "wspólnoty"]
+
+# Migration Content Dependencies
+migration_dependencies:
+  must_migrate_together:
+    - service_page + related_blog_posts + location_pages
+    - pricing_tables + service_descriptions + contact_info
+    - navigation_menus + breadcrumbs + footer_links
+    
+  migration_order:
+    1: "contact_information"
+    2: "service_categories"
+    3: "location_data"
+    4: "product_information"
+    5: "blog_content"
+    6: "business_pages"
+    7: "static_pages"
+    
+  post_migration_updates:
+    - "regenerate_sitemaps"
+    - "update_internal_links"
+    - "validate_all_relationships"
+    - "test_contact_forms"
+    - "verify_pricing_display"
+
+# API Endpoint Structure for Headless CMS
+api_endpoints:
+  services:
+    list: "/api/services"
+    single: "/api/services/{slug}"
+    by_location: "/api/services/location/{city}/{district}"
+    by_category: "/api/services/category/{category}"
+    
+  locations:
+    list: "/api/locations"
+    single: "/api/locations/{city}/{district}"
+    with_services: "/api/locations/{city}/{district}/services"
+    
+  content:
+    pages: "/api/pages/{slug}"
+    blog: "/api/blog/{category}/{slug}"
+    related: "/api/content/{id}/related"
+    
+  contact:
+    info: "/api/contact"
+    departments: "/api/contact/departments"
+    locations: "/api/contact/locations"
